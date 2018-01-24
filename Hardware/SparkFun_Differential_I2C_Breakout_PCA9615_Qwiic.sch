@@ -16392,81 +16392,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
-<library name="Openponics">
-<packages>
-<package name="TSSOP10">
-<smd name="4" x="-2.259" y="-0.4825" dx="1.1" dy="0.25" layer="1"/>
-<smd name="3" x="-2.259" y="0.0175" dx="1.1" dy="0.25" layer="1"/>
-<smd name="2" x="-2.259" y="0.5175" dx="1.1" dy="0.25" layer="1"/>
-<smd name="1" x="-2.259" y="1.0175" dx="1.1" dy="0.25" layer="1"/>
-<smd name="5" x="-2.259" y="-0.9875" dx="1.1" dy="0.25" layer="1"/>
-<circle x="-0.954" y="1.0025" radius="0.335409375" width="0.127" layer="21"/>
-<text x="0.096" y="1.7275" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0.121" y="-2.3825" size="0.6096" layer="27" font="vector" ratio="20" align="bottom-center">&gt;VALUE</text>
-<polygon width="0.002540625" layer="21">
-<vertex x="-1.93525" y="1.65125" curve="90"/>
-<vertex x="-1.61775" y="1.96875" curve="90"/>
-<vertex x="-1.93525" y="2.28625" curve="90"/>
-<vertex x="-2.25275" y="1.96875" curve="90"/>
-</polygon>
-<wire x1="-1.524" y1="-1.5875" x2="1.626" y2="-1.5875" width="0.127" layer="21"/>
-<wire x1="1.626" y1="-1.5875" x2="1.626" y2="1.5625" width="0.127" layer="21"/>
-<wire x1="1.626" y1="1.5625" x2="-1.524" y2="1.5625" width="0.127" layer="21"/>
-<wire x1="-1.524" y1="1.5625" x2="-1.524" y2="-1.5875" width="0.127" layer="21"/>
-<smd name="7" x="2.366" y="-0.4825" dx="1.1" dy="0.25" layer="1"/>
-<smd name="8" x="2.366" y="0.0175" dx="1.1" dy="0.25" layer="1"/>
-<smd name="9" x="2.366" y="0.5175" dx="1.1" dy="0.25" layer="1"/>
-<smd name="10" x="2.366" y="1.0175" dx="1.1" dy="0.25" layer="1"/>
-<smd name="6" x="2.366" y="-0.9875" dx="1.1" dy="0.25" layer="1"/>
-</package>
-</packages>
-<symbols>
-<symbol name="PCA9615">
-<pin name="EN" x="-15.24" y="2.54" length="middle"/>
-<pin name="SDA" x="-15.24" y="0" length="middle"/>
-<pin name="SCL" x="-15.24" y="-2.54" length="middle"/>
-<pin name="GND" x="-15.24" y="-5.08" length="middle"/>
-<pin name="DSDA-" x="15.24" y="2.54" length="middle" rot="R180"/>
-<pin name="DSDA+" x="15.24" y="0" length="middle" rot="R180"/>
-<pin name="DSCL+" x="15.24" y="-2.54" length="middle" rot="R180"/>
-<pin name="DSCL-" x="15.24" y="-5.08" length="middle" rot="R180"/>
-<wire x1="-10.16" y1="7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
-<wire x1="10.16" y1="7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-7.62" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="-7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
-<text x="-0.254" y="8.128" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-10.16" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
-<pin name="VDDA" x="-15.24" y="5.08" length="middle"/>
-<pin name="VDDB" x="15.24" y="5.08" length="middle" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="PCA9615">
-<gates>
-<gate name="G$1" symbol="PCA9615" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="TSSOP10">
-<connects>
-<connect gate="G$1" pin="DSCL+" pad="7"/>
-<connect gate="G$1" pin="DSCL-" pad="6"/>
-<connect gate="G$1" pin="DSDA+" pad="8"/>
-<connect gate="G$1" pin="DSDA-" pad="9"/>
-<connect gate="G$1" pin="EN" pad="3"/>
-<connect gate="G$1" pin="GND" pad="5"/>
-<connect gate="G$1" pin="SCL" pad="4"/>
-<connect gate="G$1" pin="SDA" pad="2"/>
-<connect gate="G$1" pin="VDDA" pad="1"/>
-<connect gate="G$1" pin="VDDB" pad="10"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="SparkFun-Connectors">
 <description>&lt;h3&gt;SparkFun Connectors&lt;/h3&gt;
 This library contains electrically-functional connectors. 
@@ -19020,6 +18945,99 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
+<library name="SparkFun-IC-Comms">
+<description>&lt;h3&gt;SparkFun Communication ICs&lt;/h3&gt;
+This is the communications library, which contains things that exist on wired busses.  This includes USB to serial conversion ICs, like the FTDI line, plus high speed line drivers, level shifters, bus drivers, CAN transceivers and ethernet PHYs.
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="TSSOP10">
+<smd name="4" x="-2.259" y="-0.4825" dx="1.1" dy="0.25" layer="1"/>
+<smd name="3" x="-2.259" y="0.0175" dx="1.1" dy="0.25" layer="1"/>
+<smd name="2" x="-2.259" y="0.5175" dx="1.1" dy="0.25" layer="1"/>
+<smd name="1" x="-2.259" y="1.0175" dx="1.1" dy="0.25" layer="1"/>
+<smd name="5" x="-2.259" y="-0.9875" dx="1.1" dy="0.25" layer="1"/>
+<circle x="-0.954" y="1.0025" radius="0.335409375" width="0.127" layer="21"/>
+<text x="0.096" y="1.7275" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0.121" y="-2.3825" size="0.6096" layer="27" font="vector" ratio="20" align="bottom-center">&gt;VALUE</text>
+<polygon width="0.002540625" layer="21">
+<vertex x="-1.93525" y="1.65125" curve="90"/>
+<vertex x="-1.61775" y="1.96875" curve="90"/>
+<vertex x="-1.93525" y="2.28625" curve="90"/>
+<vertex x="-2.25275" y="1.96875" curve="90"/>
+</polygon>
+<wire x1="-1.524" y1="-1.5875" x2="1.626" y2="-1.5875" width="0.127" layer="21"/>
+<wire x1="1.626" y1="-1.5875" x2="1.626" y2="1.5625" width="0.127" layer="21"/>
+<wire x1="1.626" y1="1.5625" x2="-1.524" y2="1.5625" width="0.127" layer="21"/>
+<wire x1="-1.524" y1="1.5625" x2="-1.524" y2="-1.5875" width="0.127" layer="21"/>
+<smd name="7" x="2.366" y="-0.4825" dx="1.1" dy="0.25" layer="1"/>
+<smd name="8" x="2.366" y="0.0175" dx="1.1" dy="0.25" layer="1"/>
+<smd name="9" x="2.366" y="0.5175" dx="1.1" dy="0.25" layer="1"/>
+<smd name="10" x="2.366" y="1.0175" dx="1.1" dy="0.25" layer="1"/>
+<smd name="6" x="2.366" y="-0.9875" dx="1.1" dy="0.25" layer="1"/>
+</package>
+</packages>
+<symbols>
+<symbol name="PCA9615">
+<pin name="EN" x="-15.24" y="2.54" length="middle"/>
+<pin name="SDA" x="-15.24" y="0" length="middle"/>
+<pin name="SCL" x="-15.24" y="-2.54" length="middle"/>
+<pin name="GND" x="-15.24" y="-5.08" length="middle"/>
+<pin name="DSDA-" x="15.24" y="2.54" length="middle" rot="R180"/>
+<pin name="DSDA+" x="15.24" y="0" length="middle" rot="R180"/>
+<pin name="DSCL+" x="15.24" y="-2.54" length="middle" rot="R180"/>
+<pin name="DSCL-" x="15.24" y="-5.08" length="middle" rot="R180"/>
+<wire x1="-10.16" y1="7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
+<text x="-0.254" y="8.128" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-10.16" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+<pin name="VDDA" x="-15.24" y="5.08" length="middle"/>
+<pin name="VDDB" x="15.24" y="5.08" length="middle" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="PCA9615">
+<description>&lt;h3&gt;Differential I2C Bus Buffer&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href="https://www.nxp.com/docs/en/data-sheet/PCA9615.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="PCA9615" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TSSOP10">
+<connects>
+<connect gate="G$1" pin="DSCL+" pad="7"/>
+<connect gate="G$1" pin="DSCL-" pad="6"/>
+<connect gate="G$1" pin="DSDA+" pad="8"/>
+<connect gate="G$1" pin="DSDA-" pad="9"/>
+<connect gate="G$1" pin="EN" pad="3"/>
+<connect gate="G$1" pin="GND" pad="5"/>
+<connect gate="G$1" pin="SCL" pad="4"/>
+<connect gate="G$1" pin="SDA" pad="2"/>
+<connect gate="G$1" pin="VDDA" pad="1"/>
+<connect gate="G$1" pin="VDDB" pad="10"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="PENDING" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 <attribute name="ABBREV" value="hb1"/>
@@ -19038,7 +19056,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-LETTER" device=""/>
 <part name="J1" library="SparkFun-Connectors" deviceset="QWIIC_CONNECTOR" device="JS-1MM"/>
 <part name="GND1" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="U1" library="Openponics" deviceset="PCA9615" device=""/>
+<part name="U1" library="SparkFun-IC-Comms" deviceset="PCA9615" device=""/>
 <part name="J2" library="SparkFun-Connectors" deviceset="QWIIC_CONNECTOR" device="JS-1MM"/>
 <part name="GND2" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY3" library="SparkFun-PowerSymbols" deviceset="VCC_1" device="" value="VDD_A"/>
