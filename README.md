@@ -1,41 +1,26 @@
-SparkFun <PRODUCT NAME>
+SparkFun Differential I2C Breakout - PCA9615 (Qwiic)
 ========================================
 
-![SparkFun Part Name](URL for picture of part)
+[![SparkFun Differential I2C Breakout - PCA9615 (Qwiic)](https://cdn.sparkfun.com/assets/parts/1/2/7/4/5/14589-SparkFun_Differential_I2C_Breakout_-_PCA9615__Qwiic_-01.jpg)](https://cdn.sparkfun.com/assets/parts/1/2/7/4/5/14589-SparkFun_Differential_I2C_Breakout_-_PCA9615__Qwiic_-01.jpg)
 
-[*SparkFun Part Name (SKU)*](URL for product on Sparkfun.com)
+[*SparkFun Differential I2C Breakout - PCA9615 (Qwiic) (BOB-14589)*](https://www.sparkfun.com/products/14589)
 
-<Basic description of the part.>
+The SparkFun Differential I<sup>2</sup>C Breakout is the fastest and easiest way to extend the range of your I<sup>2</sup>C communication bus. The breakout uses NXP’s PCA9615 IC, which converts the two default I<sup>2</sup>C signals into four differential signals, two for SCL and two for SDA. 
 
 Repository Contents
 -------------------
 
-* **/Documentation** - Data sheets, additional product information
-* **/Enclosure** - Enclosure files 
-* **/Firmware** - Example code 
+* **/Documentation** - Datasheets, additional product information
 * **/Hardware** - Eagle design files (.brd, .sch)
-* **/Libraries** - Libraries for use with the <PRODUCT NAME>
 * **/Production** - Production panel files (.brd)
-* **/Software** - Related software for the <PRODUCT NAME>
 
 Documentation
 --------------
-* **[Library](GitHub library URL)** - <LANGUAGE> library for the <PRODUCT NAME>.
-* **[Hookup Guide](Learn.SparkFun URL)** - Basic hookup guide for the <PRODUCT NAME>.
-* **[SparkFun Fritzing repo](https://github.com/sparkfun/Fritzing_Parts)** - Fritzing diagrams for SparkFun products.
-* **[SparkFun 3D Model repo](https://github.com/sparkfun/3D_Models)** - 3D models of SparkFun products. 
-* **[SparkFun Graphical Datasheets](https://github.com/sparkfun/Graphical_Datasheets)** -Graphical Datasheets for various SparkFun products.
+* **[Hookup Guide](https://learn.sparkfun.com/tutorials/qwiic-differential-i2c-bus-extender-pca9615-hookup-guide)** - Basic hookup guide for the SparkFun Differential I2C Breakout - PCA9615 (Qwiic).
 
 Product Versions
 ----------------
-* [Part SKU](part URL)- Basic part and short description here
-* [Retail part SKU] (retail URL)- Retail packaging of standard description here
-* [Any other parts this repo covers](any other URLs) - Description of said parts
-
-Version History
----------------
-* [vExxFxxZxxHxxLxxSxx](URL for tag specific to this version) - Description 
-* [vEyyFyyZyyHyyLyySyy](URL for tag specific to this version) - Description
+* [BOB-14589](https://www.sparkfun.com/products/14589)
 
 License Information
 -------------------
