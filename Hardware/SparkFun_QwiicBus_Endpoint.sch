@@ -23451,7 +23451,7 @@ the PWR LED</text>
 <pinref part="J5" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="DSDA-" class="0">
+<net name="DSDA_N" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="DSDA-"/>
 <wire x1="43.18" y1="165.1" x2="45.72" y2="165.1" width="0.1524" layer="91"/>
@@ -23472,7 +23472,7 @@ the PWR LED</text>
 <label x="210.82" y="55.88" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="DSDA+" class="0">
+<net name="DSDA_P" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="DSDA+"/>
 <wire x1="43.18" y1="162.56" x2="45.72" y2="162.56" width="0.1524" layer="91"/>
@@ -23493,7 +23493,7 @@ the PWR LED</text>
 <label x="210.82" y="53.34" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="DSCL+" class="0">
+<net name="DSCL_P" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="DSCL+"/>
 <wire x1="43.18" y1="160.02" x2="45.72" y2="160.02" width="0.1524" layer="91"/>
@@ -23514,7 +23514,7 @@ the PWR LED</text>
 <label x="210.82" y="68.58" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="DSCL-" class="0">
+<net name="DSCL_N" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="DSCL-"/>
 <wire x1="43.18" y1="157.48" x2="45.72" y2="157.48" width="0.1524" layer="91"/>
