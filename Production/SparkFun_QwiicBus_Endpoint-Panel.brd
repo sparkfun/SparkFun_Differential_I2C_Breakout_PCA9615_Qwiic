@@ -5303,7 +5303,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <class number="0" name="default" width="0.2032" drill="0">
 </class>
 </classes>
-<designrules name="SparkFun_QwiicBus_Endpoint">
+<designrules name="SparkFun_QwiicBus_EndPoint">
 <description language="en">&lt;b&gt;SparkFun 2 Layer Design Rule Checks - STANDARD/TIGHT/FAB-LIMIT&lt;/b&gt;
 &lt;p&gt;
 These rules have been curated by SparkFuns DFM commitee. After doing much research, communicating with our multiple fab houses, and getting quotes of various designs, we have compiled three DRU files. 
@@ -5662,9 +5662,9 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="PROD_ID" value="CONN-09696" x="1.27" y="17.78" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="-0.762" y="19.05" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
-<element name="LOGO3" library="SparkFun-Aesthetics" package="QWIIC_4MM" value="QWIIC_LOGO_4MM" x="18.288" y="3.81" smashed="yes"/>
+<element name="LOGO3" library="SparkFun-Aesthetics" package="QWIIC_4MM" value="QWIIC_LOGO_4MM" x="7.239" y="20.955" smashed="yes"/>
 <element name="LOGO4" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.1" value="SFE_LOGO_NAME_FLAME.1_INCH" x="19.05" y="17.78" smashed="yes" rot="MR0"/>
-<element name="U$28" library="QwiicBus#working#Logo#jpg (2)" package="QWIICBUS#WORKING#LOGO#JPG" value="" x="19.558" y="8.128" smashed="yes"/>
+<element name="U$28" library="QwiicBus#working#Logo#jpg (2)" package="QWIICBUS#WORKING#LOGO#JPG" value="" x="19.558" y="8.509" smashed="yes"/>
 <element name="U$23" library="QwiicBus#working#Logo#jpg (2)" package="QWIICBUS#WORKING#LOGO#JPG" value="" x="18.442" y="13.874" smashed="yes" rot="MR0"/>
 <element name="J6" library="SparkFun-Connectors" package="JST04_1MM_RA" value="QWIIC" x="65.278" y="5.08" smashed="yes">
 <attribute name="NAME" x="63.881" y="2.921" size="0.6096" layer="25" font="vector" ratio="20"/>
@@ -5842,9 +5842,9 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="PROD_ID" value="CONN-09696" x="53.848" y="17.78" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="51.816" y="19.05" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
-<element name="LOGO9" library="SparkFun-Aesthetics" package="QWIIC_4MM" value="QWIIC_LOGO_4MM" x="70.866" y="3.81" smashed="yes"/>
+<element name="LOGO9" library="SparkFun-Aesthetics" package="QWIIC_4MM" value="QWIIC_LOGO_4MM" x="59.817" y="20.955" smashed="yes"/>
 <element name="LOGO10" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.1" value="SFE_LOGO_NAME_FLAME.1_INCH" x="71.628" y="17.78" smashed="yes" rot="MR0"/>
-<element name="U$53" library="QwiicBus#working#Logo#jpg (2)" package="QWIICBUS#WORKING#LOGO#JPG" value="" x="72.136" y="8.128" smashed="yes"/>
+<element name="U$53" library="QwiicBus#working#Logo#jpg (2)" package="QWIICBUS#WORKING#LOGO#JPG" value="" x="72.136" y="8.509" smashed="yes"/>
 <element name="U$54" library="QwiicBus#working#Logo#jpg (2)" package="QWIICBUS#WORKING#LOGO#JPG" value="" x="71.02" y="13.874" smashed="yes" rot="MR0"/>
 <element name="J15" library="SparkFun-Connectors" package="JST04_1MM_RA" value="QWIIC" x="117.856" y="5.08" smashed="yes">
 <attribute name="NAME" x="116.459" y="2.921" size="0.6096" layer="25" font="vector" ratio="20"/>
@@ -6022,9 +6022,9 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="PROD_ID" value="CONN-09696" x="106.426" y="17.78" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="104.394" y="19.05" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
-<element name="LOGO14" library="SparkFun-Aesthetics" package="QWIIC_4MM" value="QWIIC_LOGO_4MM" x="123.444" y="3.81" smashed="yes"/>
+<element name="LOGO14" library="SparkFun-Aesthetics" package="QWIIC_4MM" value="QWIIC_LOGO_4MM" x="112.395" y="20.955" smashed="yes"/>
 <element name="LOGO15" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.1" value="SFE_LOGO_NAME_FLAME.1_INCH" x="124.206" y="17.78" smashed="yes" rot="MR0"/>
-<element name="U$80" library="QwiicBus#working#Logo#jpg (2)" package="QWIICBUS#WORKING#LOGO#JPG" value="" x="124.714" y="8.128" smashed="yes"/>
+<element name="U$80" library="QwiicBus#working#Logo#jpg (2)" package="QWIICBUS#WORKING#LOGO#JPG" value="" x="124.714" y="8.509" smashed="yes"/>
 <element name="U$81" library="QwiicBus#working#Logo#jpg (2)" package="QWIICBUS#WORKING#LOGO#JPG" value="" x="123.598" y="13.874" smashed="yes" rot="MR0"/>
 <element name="J22" library="SparkFun-Connectors" package="JST04_1MM_RA" value="QWIIC" x="170.434" y="5.08" smashed="yes">
 <attribute name="NAME" x="169.037" y="2.921" size="0.6096" layer="25" font="vector" ratio="20"/>
@@ -6202,9 +6202,9 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="PROD_ID" value="CONN-09696" x="159.004" y="17.78" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="156.972" y="19.05" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
-<element name="LOGO19" library="SparkFun-Aesthetics" package="QWIIC_4MM" value="QWIIC_LOGO_4MM" x="176.022" y="3.81" smashed="yes"/>
+<element name="LOGO19" library="SparkFun-Aesthetics" package="QWIIC_4MM" value="QWIIC_LOGO_4MM" x="164.973" y="20.955" smashed="yes"/>
 <element name="LOGO20" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.1" value="SFE_LOGO_NAME_FLAME.1_INCH" x="176.784" y="17.78" smashed="yes" rot="MR0"/>
-<element name="U$107" library="QwiicBus#working#Logo#jpg (2)" package="QWIICBUS#WORKING#LOGO#JPG" value="" x="177.292" y="8.128" smashed="yes"/>
+<element name="U$107" library="QwiicBus#working#Logo#jpg (2)" package="QWIICBUS#WORKING#LOGO#JPG" value="" x="177.292" y="8.509" smashed="yes"/>
 <element name="U$108" library="QwiicBus#working#Logo#jpg (2)" package="QWIICBUS#WORKING#LOGO#JPG" value="" x="176.176" y="13.874" smashed="yes" rot="MR0"/>
 <element name="J29" library="SparkFun-Connectors" package="JST04_1MM_RA" value="QWIIC" x="12.7" y="30.988" smashed="yes">
 <attribute name="NAME" x="11.303" y="28.829" size="0.6096" layer="25" font="vector" ratio="20"/>
@@ -6382,9 +6382,9 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="PROD_ID" value="CONN-09696" x="1.27" y="43.688" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="-0.762" y="44.958" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
-<element name="LOGO24" library="SparkFun-Aesthetics" package="QWIIC_4MM" value="QWIIC_LOGO_4MM" x="18.288" y="29.718" smashed="yes"/>
+<element name="LOGO24" library="SparkFun-Aesthetics" package="QWIIC_4MM" value="QWIIC_LOGO_4MM" x="7.239" y="46.863" smashed="yes"/>
 <element name="LOGO25" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.1" value="SFE_LOGO_NAME_FLAME.1_INCH" x="19.05" y="43.688" smashed="yes" rot="MR0"/>
-<element name="U$134" library="QwiicBus#working#Logo#jpg (2)" package="QWIICBUS#WORKING#LOGO#JPG" value="" x="19.558" y="34.036" smashed="yes"/>
+<element name="U$134" library="QwiicBus#working#Logo#jpg (2)" package="QWIICBUS#WORKING#LOGO#JPG" value="" x="19.558" y="34.417" smashed="yes"/>
 <element name="U$135" library="QwiicBus#working#Logo#jpg (2)" package="QWIICBUS#WORKING#LOGO#JPG" value="" x="18.442" y="39.782" smashed="yes" rot="MR0"/>
 <element name="J36" library="SparkFun-Connectors" package="JST04_1MM_RA" value="QWIIC" x="65.278" y="30.988" smashed="yes">
 <attribute name="NAME" x="63.881" y="28.829" size="0.6096" layer="25" font="vector" ratio="20"/>
@@ -6562,9 +6562,9 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="PROD_ID" value="CONN-09696" x="53.848" y="43.688" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="51.816" y="44.958" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
-<element name="LOGO29" library="SparkFun-Aesthetics" package="QWIIC_4MM" value="QWIIC_LOGO_4MM" x="70.866" y="29.718" smashed="yes"/>
+<element name="LOGO29" library="SparkFun-Aesthetics" package="QWIIC_4MM" value="QWIIC_LOGO_4MM" x="59.817" y="46.863" smashed="yes"/>
 <element name="LOGO30" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.1" value="SFE_LOGO_NAME_FLAME.1_INCH" x="71.628" y="43.688" smashed="yes" rot="MR0"/>
-<element name="U$161" library="QwiicBus#working#Logo#jpg (2)" package="QWIICBUS#WORKING#LOGO#JPG" value="" x="72.136" y="34.036" smashed="yes"/>
+<element name="U$161" library="QwiicBus#working#Logo#jpg (2)" package="QWIICBUS#WORKING#LOGO#JPG" value="" x="72.136" y="34.417" smashed="yes"/>
 <element name="U$162" library="QwiicBus#working#Logo#jpg (2)" package="QWIICBUS#WORKING#LOGO#JPG" value="" x="71.02" y="39.782" smashed="yes" rot="MR0"/>
 <element name="J43" library="SparkFun-Connectors" package="JST04_1MM_RA" value="QWIIC" x="117.856" y="30.988" smashed="yes">
 <attribute name="NAME" x="116.459" y="28.829" size="0.6096" layer="25" font="vector" ratio="20"/>
@@ -6742,9 +6742,9 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="PROD_ID" value="CONN-09696" x="106.426" y="43.688" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="104.394" y="44.958" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
-<element name="LOGO34" library="SparkFun-Aesthetics" package="QWIIC_4MM" value="QWIIC_LOGO_4MM" x="123.444" y="29.718" smashed="yes"/>
+<element name="LOGO34" library="SparkFun-Aesthetics" package="QWIIC_4MM" value="QWIIC_LOGO_4MM" x="112.395" y="46.863" smashed="yes"/>
 <element name="LOGO35" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.1" value="SFE_LOGO_NAME_FLAME.1_INCH" x="124.206" y="43.688" smashed="yes" rot="MR0"/>
-<element name="U$188" library="QwiicBus#working#Logo#jpg (2)" package="QWIICBUS#WORKING#LOGO#JPG" value="" x="124.714" y="34.036" smashed="yes"/>
+<element name="U$188" library="QwiicBus#working#Logo#jpg (2)" package="QWIICBUS#WORKING#LOGO#JPG" value="" x="124.714" y="34.417" smashed="yes"/>
 <element name="U$189" library="QwiicBus#working#Logo#jpg (2)" package="QWIICBUS#WORKING#LOGO#JPG" value="" x="123.598" y="39.782" smashed="yes" rot="MR0"/>
 <element name="J50" library="SparkFun-Connectors" package="JST04_1MM_RA" value="QWIIC" x="170.434" y="30.988" smashed="yes">
 <attribute name="NAME" x="169.037" y="28.829" size="0.6096" layer="25" font="vector" ratio="20"/>
@@ -6922,9 +6922,9 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="PROD_ID" value="CONN-09696" x="159.004" y="43.688" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="156.972" y="44.958" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
-<element name="LOGO39" library="SparkFun-Aesthetics" package="QWIIC_4MM" value="QWIIC_LOGO_4MM" x="176.022" y="29.718" smashed="yes"/>
+<element name="LOGO39" library="SparkFun-Aesthetics" package="QWIIC_4MM" value="QWIIC_LOGO_4MM" x="164.973" y="46.863" smashed="yes"/>
 <element name="LOGO40" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.1" value="SFE_LOGO_NAME_FLAME.1_INCH" x="176.784" y="43.688" smashed="yes" rot="MR0"/>
-<element name="U$215" library="QwiicBus#working#Logo#jpg (2)" package="QWIICBUS#WORKING#LOGO#JPG" value="" x="177.292" y="34.036" smashed="yes"/>
+<element name="U$215" library="QwiicBus#working#Logo#jpg (2)" package="QWIICBUS#WORKING#LOGO#JPG" value="" x="177.292" y="34.417" smashed="yes"/>
 <element name="U$216" library="QwiicBus#working#Logo#jpg (2)" package="QWIICBUS#WORKING#LOGO#JPG" value="" x="176.176" y="39.782" smashed="yes" rot="MR0"/>
 <element name="J57" library="SparkFun-Connectors" package="JST04_1MM_RA" value="QWIIC" x="12.7" y="56.896" smashed="yes">
 <attribute name="NAME" x="11.303" y="54.737" size="0.6096" layer="25" font="vector" ratio="20"/>
@@ -7102,9 +7102,9 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="PROD_ID" value="CONN-09696" x="1.27" y="69.596" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="-0.762" y="70.866" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
-<element name="LOGO44" library="SparkFun-Aesthetics" package="QWIIC_4MM" value="QWIIC_LOGO_4MM" x="18.288" y="55.626" smashed="yes"/>
+<element name="LOGO44" library="SparkFun-Aesthetics" package="QWIIC_4MM" value="QWIIC_LOGO_4MM" x="7.239" y="72.771" smashed="yes"/>
 <element name="LOGO45" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.1" value="SFE_LOGO_NAME_FLAME.1_INCH" x="19.05" y="69.596" smashed="yes" rot="MR0"/>
-<element name="U$242" library="QwiicBus#working#Logo#jpg (2)" package="QWIICBUS#WORKING#LOGO#JPG" value="" x="19.558" y="59.944" smashed="yes"/>
+<element name="U$242" library="QwiicBus#working#Logo#jpg (2)" package="QWIICBUS#WORKING#LOGO#JPG" value="" x="19.558" y="60.325" smashed="yes"/>
 <element name="U$243" library="QwiicBus#working#Logo#jpg (2)" package="QWIICBUS#WORKING#LOGO#JPG" value="" x="18.442" y="65.69" smashed="yes" rot="MR0"/>
 <element name="J64" library="SparkFun-Connectors" package="JST04_1MM_RA" value="QWIIC" x="65.278" y="56.896" smashed="yes">
 <attribute name="NAME" x="63.881" y="54.737" size="0.6096" layer="25" font="vector" ratio="20"/>
@@ -7282,9 +7282,9 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="PROD_ID" value="CONN-09696" x="53.848" y="69.596" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="51.816" y="70.866" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
-<element name="LOGO49" library="SparkFun-Aesthetics" package="QWIIC_4MM" value="QWIIC_LOGO_4MM" x="70.866" y="55.626" smashed="yes"/>
+<element name="LOGO49" library="SparkFun-Aesthetics" package="QWIIC_4MM" value="QWIIC_LOGO_4MM" x="59.817" y="72.771" smashed="yes"/>
 <element name="LOGO50" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.1" value="SFE_LOGO_NAME_FLAME.1_INCH" x="71.628" y="69.596" smashed="yes" rot="MR0"/>
-<element name="U$269" library="QwiicBus#working#Logo#jpg (2)" package="QWIICBUS#WORKING#LOGO#JPG" value="" x="72.136" y="59.944" smashed="yes"/>
+<element name="U$269" library="QwiicBus#working#Logo#jpg (2)" package="QWIICBUS#WORKING#LOGO#JPG" value="" x="72.136" y="60.325" smashed="yes"/>
 <element name="U$270" library="QwiicBus#working#Logo#jpg (2)" package="QWIICBUS#WORKING#LOGO#JPG" value="" x="71.02" y="65.69" smashed="yes" rot="MR0"/>
 <element name="J71" library="SparkFun-Connectors" package="JST04_1MM_RA" value="QWIIC" x="117.856" y="56.896" smashed="yes">
 <attribute name="NAME" x="116.459" y="54.737" size="0.6096" layer="25" font="vector" ratio="20"/>
@@ -7462,9 +7462,9 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="PROD_ID" value="CONN-09696" x="106.426" y="69.596" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="104.394" y="70.866" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
-<element name="LOGO54" library="SparkFun-Aesthetics" package="QWIIC_4MM" value="QWIIC_LOGO_4MM" x="123.444" y="55.626" smashed="yes"/>
+<element name="LOGO54" library="SparkFun-Aesthetics" package="QWIIC_4MM" value="QWIIC_LOGO_4MM" x="112.395" y="72.771" smashed="yes"/>
 <element name="LOGO55" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.1" value="SFE_LOGO_NAME_FLAME.1_INCH" x="124.206" y="69.596" smashed="yes" rot="MR0"/>
-<element name="U$296" library="QwiicBus#working#Logo#jpg (2)" package="QWIICBUS#WORKING#LOGO#JPG" value="" x="124.714" y="59.944" smashed="yes"/>
+<element name="U$296" library="QwiicBus#working#Logo#jpg (2)" package="QWIICBUS#WORKING#LOGO#JPG" value="" x="124.714" y="60.325" smashed="yes"/>
 <element name="U$297" library="QwiicBus#working#Logo#jpg (2)" package="QWIICBUS#WORKING#LOGO#JPG" value="" x="123.598" y="65.69" smashed="yes" rot="MR0"/>
 <element name="J78" library="SparkFun-Connectors" package="JST04_1MM_RA" value="QWIIC" x="170.434" y="56.896" smashed="yes">
 <attribute name="NAME" x="169.037" y="54.737" size="0.6096" layer="25" font="vector" ratio="20"/>
@@ -7642,9 +7642,9 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="PROD_ID" value="CONN-09696" x="159.004" y="69.596" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="156.972" y="70.866" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
-<element name="LOGO59" library="SparkFun-Aesthetics" package="QWIIC_4MM" value="QWIIC_LOGO_4MM" x="176.022" y="55.626" smashed="yes"/>
+<element name="LOGO59" library="SparkFun-Aesthetics" package="QWIIC_4MM" value="QWIIC_LOGO_4MM" x="164.973" y="72.771" smashed="yes"/>
 <element name="LOGO60" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.1" value="SFE_LOGO_NAME_FLAME.1_INCH" x="176.784" y="69.596" smashed="yes" rot="MR0"/>
-<element name="U$323" library="QwiicBus#working#Logo#jpg (2)" package="QWIICBUS#WORKING#LOGO#JPG" value="" x="177.292" y="59.944" smashed="yes"/>
+<element name="U$323" library="QwiicBus#working#Logo#jpg (2)" package="QWIICBUS#WORKING#LOGO#JPG" value="" x="177.292" y="60.325" smashed="yes"/>
 <element name="U$324" library="QwiicBus#working#Logo#jpg (2)" package="QWIICBUS#WORKING#LOGO#JPG" value="" x="176.176" y="65.69" smashed="yes" rot="MR0"/>
 <element name="J85" library="SparkFun-Connectors" package="JST04_1MM_RA" value="QWIIC" x="12.7" y="82.804" smashed="yes">
 <attribute name="NAME" x="11.303" y="80.645" size="0.6096" layer="25" font="vector" ratio="20"/>
@@ -7822,9 +7822,9 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="PROD_ID" value="CONN-09696" x="1.27" y="95.504" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="-0.762" y="96.774" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
-<element name="LOGO64" library="SparkFun-Aesthetics" package="QWIIC_4MM" value="QWIIC_LOGO_4MM" x="18.288" y="81.534" smashed="yes"/>
+<element name="LOGO64" library="SparkFun-Aesthetics" package="QWIIC_4MM" value="QWIIC_LOGO_4MM" x="7.239" y="98.679" smashed="yes"/>
 <element name="LOGO65" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.1" value="SFE_LOGO_NAME_FLAME.1_INCH" x="19.05" y="95.504" smashed="yes" rot="MR0"/>
-<element name="U$350" library="QwiicBus#working#Logo#jpg (2)" package="QWIICBUS#WORKING#LOGO#JPG" value="" x="19.558" y="85.852" smashed="yes"/>
+<element name="U$350" library="QwiicBus#working#Logo#jpg (2)" package="QWIICBUS#WORKING#LOGO#JPG" value="" x="19.558" y="86.233" smashed="yes"/>
 <element name="U$351" library="QwiicBus#working#Logo#jpg (2)" package="QWIICBUS#WORKING#LOGO#JPG" value="" x="18.442" y="91.598" smashed="yes" rot="MR0"/>
 <element name="J92" library="SparkFun-Connectors" package="JST04_1MM_RA" value="QWIIC" x="65.278" y="82.804" smashed="yes">
 <attribute name="NAME" x="63.881" y="80.645" size="0.6096" layer="25" font="vector" ratio="20"/>
@@ -8002,9 +8002,9 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="PROD_ID" value="CONN-09696" x="53.848" y="95.504" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="51.816" y="96.774" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
-<element name="LOGO69" library="SparkFun-Aesthetics" package="QWIIC_4MM" value="QWIIC_LOGO_4MM" x="70.866" y="81.534" smashed="yes"/>
+<element name="LOGO69" library="SparkFun-Aesthetics" package="QWIIC_4MM" value="QWIIC_LOGO_4MM" x="59.817" y="98.679" smashed="yes"/>
 <element name="LOGO70" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.1" value="SFE_LOGO_NAME_FLAME.1_INCH" x="71.628" y="95.504" smashed="yes" rot="MR0"/>
-<element name="U$377" library="QwiicBus#working#Logo#jpg (2)" package="QWIICBUS#WORKING#LOGO#JPG" value="" x="72.136" y="85.852" smashed="yes"/>
+<element name="U$377" library="QwiicBus#working#Logo#jpg (2)" package="QWIICBUS#WORKING#LOGO#JPG" value="" x="72.136" y="86.233" smashed="yes"/>
 <element name="U$378" library="QwiicBus#working#Logo#jpg (2)" package="QWIICBUS#WORKING#LOGO#JPG" value="" x="71.02" y="91.598" smashed="yes" rot="MR0"/>
 <element name="J99" library="SparkFun-Connectors" package="JST04_1MM_RA" value="QWIIC" x="117.856" y="82.804" smashed="yes">
 <attribute name="NAME" x="116.459" y="80.645" size="0.6096" layer="25" font="vector" ratio="20"/>
@@ -8182,9 +8182,9 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="PROD_ID" value="CONN-09696" x="106.426" y="95.504" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="104.394" y="96.774" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
-<element name="LOGO74" library="SparkFun-Aesthetics" package="QWIIC_4MM" value="QWIIC_LOGO_4MM" x="123.444" y="81.534" smashed="yes"/>
+<element name="LOGO74" library="SparkFun-Aesthetics" package="QWIIC_4MM" value="QWIIC_LOGO_4MM" x="112.395" y="98.679" smashed="yes"/>
 <element name="LOGO75" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.1" value="SFE_LOGO_NAME_FLAME.1_INCH" x="124.206" y="95.504" smashed="yes" rot="MR0"/>
-<element name="U$404" library="QwiicBus#working#Logo#jpg (2)" package="QWIICBUS#WORKING#LOGO#JPG" value="" x="124.714" y="85.852" smashed="yes"/>
+<element name="U$404" library="QwiicBus#working#Logo#jpg (2)" package="QWIICBUS#WORKING#LOGO#JPG" value="" x="124.714" y="86.233" smashed="yes"/>
 <element name="U$405" library="QwiicBus#working#Logo#jpg (2)" package="QWIICBUS#WORKING#LOGO#JPG" value="" x="123.598" y="91.598" smashed="yes" rot="MR0"/>
 <element name="J106" library="SparkFun-Connectors" package="JST04_1MM_RA" value="QWIIC" x="170.434" y="82.804" smashed="yes">
 <attribute name="NAME" x="169.037" y="80.645" size="0.6096" layer="25" font="vector" ratio="20"/>
@@ -8362,9 +8362,9 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="PROD_ID" value="CONN-09696" x="159.004" y="95.504" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="156.972" y="96.774" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
-<element name="LOGO79" library="SparkFun-Aesthetics" package="QWIIC_4MM" value="QWIIC_LOGO_4MM" x="176.022" y="81.534" smashed="yes"/>
+<element name="LOGO79" library="SparkFun-Aesthetics" package="QWIIC_4MM" value="QWIIC_LOGO_4MM" x="164.973" y="98.679" smashed="yes"/>
 <element name="LOGO80" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.1" value="SFE_LOGO_NAME_FLAME.1_INCH" x="176.784" y="95.504" smashed="yes" rot="MR0"/>
-<element name="U$431" library="QwiicBus#working#Logo#jpg (2)" package="QWIICBUS#WORKING#LOGO#JPG" value="" x="177.292" y="85.852" smashed="yes"/>
+<element name="U$431" library="QwiicBus#working#Logo#jpg (2)" package="QWIICBUS#WORKING#LOGO#JPG" value="" x="177.292" y="86.233" smashed="yes"/>
 <element name="U$432" library="QwiicBus#working#Logo#jpg (2)" package="QWIICBUS#WORKING#LOGO#JPG" value="" x="176.176" y="91.598" smashed="yes" rot="MR0"/>
 <element name="E$1" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="" x="14.478" y="105.2195" smashed="yes"/>
 <element name="E$2" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="" x="14.478" y="105.2195" smashed="yes" rot="MR0"/>
@@ -8458,6 +8458,21 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <via x="13.462" y="14.478" extent="1-16" drill="0.508"/>
 <contactref element="PWR" pad="1"/>
 <contactref element="J8" pad="1"/>
+<wire x1="26.09" y1="17.145" x2="39.2557" y2="13.335" width="0" layer="19" extent="1-16"/>
+<wire x1="23.075" y1="17.145" x2="26.09" y2="17.145" width="0" layer="19" extent="1-1"/>
+<wire x1="23.075" y1="15.24" x2="23.075" y2="17.145" width="0" layer="19" extent="1-1"/>
+<wire x1="16.791" y1="11.7125" x2="23.075" y2="15.24" width="0" layer="19" extent="1-1"/>
+<wire x1="15.025" y1="15.24" x2="16.791" y2="11.7125" width="0" layer="19" extent="1-1"/>
+<wire x1="13.462" y1="14.478" x2="15.025" y2="15.24" width="0" layer="19" extent="1-1"/>
+<wire x1="15.025" y1="17.145" x2="15.025" y2="15.24" width="0" layer="19" extent="1-1"/>
+<wire x1="14.2" y1="20.32" x2="15.025" y2="17.145" width="0" layer="19" extent="1-1"/>
+<wire x1="26.09" y1="8.255" x2="23.075" y2="15.24" width="0" layer="19" extent="1-1"/>
+<wire x1="29.21" y1="24.13" x2="26.09" y2="17.145" width="0" layer="19" extent="1-1"/>
+<wire x1="10.795" y1="6.604" x2="16.791" y2="11.7125" width="0" layer="19" extent="1-1"/>
+<wire x1="11.2" y1="5.08" x2="10.795" y2="6.604" width="0" layer="19" extent="1-1"/>
+<wire x1="6.5913" y1="5.08" x2="10.795" y2="6.604" width="0" layer="19" extent="1-1"/>
+<wire x1="5.207" y1="5.715" x2="6.5913" y2="5.08" width="0" layer="19" extent="1-1"/>
+<wire x1="1.27" y1="17.78" x2="13.462" y2="14.478" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VDD_A">
 <contactref element="J1" pad="2"/>
@@ -8799,6 +8814,21 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <via x="66.04" y="14.478" extent="1-16" drill="0.508"/>
 <contactref element="PWR1" pad="1"/>
 <contactref element="J14" pad="1"/>
+<wire x1="78.668" y1="17.145" x2="91.8337" y2="13.335" width="0" layer="19" extent="1-16"/>
+<wire x1="75.653" y1="17.145" x2="78.668" y2="17.145" width="0" layer="19" extent="1-1"/>
+<wire x1="75.653" y1="15.24" x2="75.653" y2="17.145" width="0" layer="19" extent="1-1"/>
+<wire x1="69.369" y1="11.7125" x2="75.653" y2="15.24" width="0" layer="19" extent="1-1"/>
+<wire x1="67.603" y1="15.24" x2="69.369" y2="11.7125" width="0" layer="19" extent="1-1"/>
+<wire x1="66.04" y1="14.478" x2="67.603" y2="15.24" width="0" layer="19" extent="1-1"/>
+<wire x1="67.603" y1="17.145" x2="67.603" y2="15.24" width="0" layer="19" extent="1-1"/>
+<wire x1="66.778" y1="20.32" x2="67.603" y2="17.145" width="0" layer="19" extent="1-1"/>
+<wire x1="78.668" y1="8.255" x2="75.653" y2="15.24" width="0" layer="19" extent="1-1"/>
+<wire x1="81.788" y1="24.13" x2="78.668" y2="17.145" width="0" layer="19" extent="1-1"/>
+<wire x1="63.373" y1="6.604" x2="69.369" y2="11.7125" width="0" layer="19" extent="1-1"/>
+<wire x1="63.778" y1="5.08" x2="63.373" y2="6.604" width="0" layer="19" extent="1-1"/>
+<wire x1="59.1693" y1="5.08" x2="63.373" y2="6.604" width="0" layer="19" extent="1-1"/>
+<wire x1="57.785" y1="5.715" x2="59.1693" y2="5.08" width="0" layer="19" extent="1-1"/>
+<wire x1="53.848" y1="17.78" x2="66.04" y2="14.478" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VDD_A1">
 <contactref element="J6" pad="2"/>
@@ -9140,6 +9170,21 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <via x="118.618" y="14.478" extent="1-16" drill="0.508"/>
 <contactref element="PWR2" pad="1"/>
 <contactref element="J21" pad="1"/>
+<wire x1="131.246" y1="17.145" x2="144.4117" y2="13.335" width="0" layer="19" extent="1-16"/>
+<wire x1="128.231" y1="17.145" x2="131.246" y2="17.145" width="0" layer="19" extent="1-1"/>
+<wire x1="128.231" y1="15.24" x2="128.231" y2="17.145" width="0" layer="19" extent="1-1"/>
+<wire x1="121.947" y1="11.7125" x2="128.231" y2="15.24" width="0" layer="19" extent="1-1"/>
+<wire x1="120.181" y1="15.24" x2="121.947" y2="11.7125" width="0" layer="19" extent="1-1"/>
+<wire x1="118.618" y1="14.478" x2="120.181" y2="15.24" width="0" layer="19" extent="1-1"/>
+<wire x1="120.181" y1="17.145" x2="120.181" y2="15.24" width="0" layer="19" extent="1-1"/>
+<wire x1="119.356" y1="20.32" x2="120.181" y2="17.145" width="0" layer="19" extent="1-1"/>
+<wire x1="131.246" y1="8.255" x2="128.231" y2="15.24" width="0" layer="19" extent="1-1"/>
+<wire x1="134.366" y1="24.13" x2="131.246" y2="17.145" width="0" layer="19" extent="1-1"/>
+<wire x1="115.951" y1="6.604" x2="121.947" y2="11.7125" width="0" layer="19" extent="1-1"/>
+<wire x1="116.356" y1="5.08" x2="115.951" y2="6.604" width="0" layer="19" extent="1-1"/>
+<wire x1="111.7473" y1="5.08" x2="115.951" y2="6.604" width="0" layer="19" extent="1-1"/>
+<wire x1="110.363" y1="5.715" x2="111.7473" y2="5.08" width="0" layer="19" extent="1-1"/>
+<wire x1="106.426" y1="17.78" x2="118.618" y2="14.478" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VDD_A2">
 <contactref element="J15" pad="2"/>
@@ -9481,6 +9526,21 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <via x="171.196" y="14.478" extent="1-16" drill="0.508"/>
 <contactref element="PWR3" pad="1"/>
 <contactref element="J28" pad="1"/>
+<wire x1="183.824" y1="17.145" x2="196.9897" y2="13.335" width="0" layer="19" extent="1-16"/>
+<wire x1="180.809" y1="17.145" x2="183.824" y2="17.145" width="0" layer="19" extent="1-1"/>
+<wire x1="180.809" y1="15.24" x2="180.809" y2="17.145" width="0" layer="19" extent="1-1"/>
+<wire x1="174.525" y1="11.7125" x2="180.809" y2="15.24" width="0" layer="19" extent="1-1"/>
+<wire x1="172.759" y1="15.24" x2="174.525" y2="11.7125" width="0" layer="19" extent="1-1"/>
+<wire x1="171.196" y1="14.478" x2="172.759" y2="15.24" width="0" layer="19" extent="1-1"/>
+<wire x1="172.759" y1="17.145" x2="172.759" y2="15.24" width="0" layer="19" extent="1-1"/>
+<wire x1="171.934" y1="20.32" x2="172.759" y2="17.145" width="0" layer="19" extent="1-1"/>
+<wire x1="183.824" y1="8.255" x2="180.809" y2="15.24" width="0" layer="19" extent="1-1"/>
+<wire x1="186.944" y1="24.13" x2="183.824" y2="17.145" width="0" layer="19" extent="1-1"/>
+<wire x1="168.529" y1="6.604" x2="174.525" y2="11.7125" width="0" layer="19" extent="1-1"/>
+<wire x1="168.934" y1="5.08" x2="168.529" y2="6.604" width="0" layer="19" extent="1-1"/>
+<wire x1="164.3253" y1="5.08" x2="168.529" y2="6.604" width="0" layer="19" extent="1-1"/>
+<wire x1="162.941" y1="5.715" x2="164.3253" y2="5.08" width="0" layer="19" extent="1-1"/>
+<wire x1="159.004" y1="17.78" x2="171.196" y2="14.478" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VDD_A3">
 <contactref element="J22" pad="2"/>
@@ -9822,6 +9882,21 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <via x="13.462" y="40.386" extent="1-16" drill="0.508"/>
 <contactref element="PWR4" pad="1"/>
 <contactref element="J35" pad="1"/>
+<wire x1="26.09" y1="43.053" x2="39.2557" y2="39.243" width="0" layer="19" extent="1-16"/>
+<wire x1="23.075" y1="43.053" x2="26.09" y2="43.053" width="0" layer="19" extent="1-1"/>
+<wire x1="23.075" y1="41.148" x2="23.075" y2="43.053" width="0" layer="19" extent="1-1"/>
+<wire x1="16.791" y1="37.6205" x2="23.075" y2="41.148" width="0" layer="19" extent="1-1"/>
+<wire x1="15.025" y1="41.148" x2="16.791" y2="37.6205" width="0" layer="19" extent="1-1"/>
+<wire x1="13.462" y1="40.386" x2="15.025" y2="41.148" width="0" layer="19" extent="1-1"/>
+<wire x1="15.025" y1="43.053" x2="15.025" y2="41.148" width="0" layer="19" extent="1-1"/>
+<wire x1="14.2" y1="46.228" x2="15.025" y2="43.053" width="0" layer="19" extent="1-1"/>
+<wire x1="26.09" y1="34.163" x2="23.075" y2="41.148" width="0" layer="19" extent="1-1"/>
+<wire x1="29.21" y1="50.038" x2="26.09" y2="43.053" width="0" layer="19" extent="1-1"/>
+<wire x1="10.795" y1="32.512" x2="16.791" y2="37.6205" width="0" layer="19" extent="1-1"/>
+<wire x1="11.2" y1="30.988" x2="10.795" y2="32.512" width="0" layer="19" extent="1-1"/>
+<wire x1="6.5913" y1="30.988" x2="10.795" y2="32.512" width="0" layer="19" extent="1-1"/>
+<wire x1="5.207" y1="31.623" x2="6.5913" y2="30.988" width="0" layer="19" extent="1-1"/>
+<wire x1="1.27" y1="43.688" x2="13.462" y2="40.386" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VDD_A4">
 <contactref element="J29" pad="2"/>
@@ -10163,6 +10238,21 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <via x="66.04" y="40.386" extent="1-16" drill="0.508"/>
 <contactref element="PWR5" pad="1"/>
 <contactref element="J42" pad="1"/>
+<wire x1="78.668" y1="43.053" x2="91.8337" y2="39.243" width="0" layer="19" extent="1-16"/>
+<wire x1="75.653" y1="43.053" x2="78.668" y2="43.053" width="0" layer="19" extent="1-1"/>
+<wire x1="75.653" y1="41.148" x2="75.653" y2="43.053" width="0" layer="19" extent="1-1"/>
+<wire x1="69.369" y1="37.6205" x2="75.653" y2="41.148" width="0" layer="19" extent="1-1"/>
+<wire x1="67.603" y1="41.148" x2="69.369" y2="37.6205" width="0" layer="19" extent="1-1"/>
+<wire x1="66.04" y1="40.386" x2="67.603" y2="41.148" width="0" layer="19" extent="1-1"/>
+<wire x1="67.603" y1="43.053" x2="67.603" y2="41.148" width="0" layer="19" extent="1-1"/>
+<wire x1="66.778" y1="46.228" x2="67.603" y2="43.053" width="0" layer="19" extent="1-1"/>
+<wire x1="78.668" y1="34.163" x2="75.653" y2="41.148" width="0" layer="19" extent="1-1"/>
+<wire x1="81.788" y1="50.038" x2="78.668" y2="43.053" width="0" layer="19" extent="1-1"/>
+<wire x1="63.373" y1="32.512" x2="69.369" y2="37.6205" width="0" layer="19" extent="1-1"/>
+<wire x1="63.778" y1="30.988" x2="63.373" y2="32.512" width="0" layer="19" extent="1-1"/>
+<wire x1="59.1693" y1="30.988" x2="63.373" y2="32.512" width="0" layer="19" extent="1-1"/>
+<wire x1="57.785" y1="31.623" x2="59.1693" y2="30.988" width="0" layer="19" extent="1-1"/>
+<wire x1="53.848" y1="43.688" x2="66.04" y2="40.386" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VDD_A5">
 <contactref element="J36" pad="2"/>
@@ -10504,6 +10594,21 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <via x="118.618" y="40.386" extent="1-16" drill="0.508"/>
 <contactref element="PWR6" pad="1"/>
 <contactref element="J49" pad="1"/>
+<wire x1="131.246" y1="43.053" x2="144.4117" y2="39.243" width="0" layer="19" extent="1-16"/>
+<wire x1="128.231" y1="43.053" x2="131.246" y2="43.053" width="0" layer="19" extent="1-1"/>
+<wire x1="128.231" y1="41.148" x2="128.231" y2="43.053" width="0" layer="19" extent="1-1"/>
+<wire x1="121.947" y1="37.6205" x2="128.231" y2="41.148" width="0" layer="19" extent="1-1"/>
+<wire x1="120.181" y1="41.148" x2="121.947" y2="37.6205" width="0" layer="19" extent="1-1"/>
+<wire x1="118.618" y1="40.386" x2="120.181" y2="41.148" width="0" layer="19" extent="1-1"/>
+<wire x1="120.181" y1="43.053" x2="120.181" y2="41.148" width="0" layer="19" extent="1-1"/>
+<wire x1="119.356" y1="46.228" x2="120.181" y2="43.053" width="0" layer="19" extent="1-1"/>
+<wire x1="131.246" y1="34.163" x2="128.231" y2="41.148" width="0" layer="19" extent="1-1"/>
+<wire x1="134.366" y1="50.038" x2="131.246" y2="43.053" width="0" layer="19" extent="1-1"/>
+<wire x1="115.951" y1="32.512" x2="121.947" y2="37.6205" width="0" layer="19" extent="1-1"/>
+<wire x1="116.356" y1="30.988" x2="115.951" y2="32.512" width="0" layer="19" extent="1-1"/>
+<wire x1="111.7473" y1="30.988" x2="115.951" y2="32.512" width="0" layer="19" extent="1-1"/>
+<wire x1="110.363" y1="31.623" x2="111.7473" y2="30.988" width="0" layer="19" extent="1-1"/>
+<wire x1="106.426" y1="43.688" x2="118.618" y2="40.386" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VDD_A6">
 <contactref element="J43" pad="2"/>
@@ -10845,6 +10950,21 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <via x="171.196" y="40.386" extent="1-16" drill="0.508"/>
 <contactref element="PWR7" pad="1"/>
 <contactref element="J56" pad="1"/>
+<wire x1="183.824" y1="43.053" x2="196.9897" y2="39.243" width="0" layer="19" extent="1-16"/>
+<wire x1="180.809" y1="43.053" x2="183.824" y2="43.053" width="0" layer="19" extent="1-1"/>
+<wire x1="180.809" y1="41.148" x2="180.809" y2="43.053" width="0" layer="19" extent="1-1"/>
+<wire x1="174.525" y1="37.6205" x2="180.809" y2="41.148" width="0" layer="19" extent="1-1"/>
+<wire x1="172.759" y1="41.148" x2="174.525" y2="37.6205" width="0" layer="19" extent="1-1"/>
+<wire x1="171.196" y1="40.386" x2="172.759" y2="41.148" width="0" layer="19" extent="1-1"/>
+<wire x1="172.759" y1="43.053" x2="172.759" y2="41.148" width="0" layer="19" extent="1-1"/>
+<wire x1="171.934" y1="46.228" x2="172.759" y2="43.053" width="0" layer="19" extent="1-1"/>
+<wire x1="183.824" y1="34.163" x2="180.809" y2="41.148" width="0" layer="19" extent="1-1"/>
+<wire x1="186.944" y1="50.038" x2="183.824" y2="43.053" width="0" layer="19" extent="1-1"/>
+<wire x1="168.529" y1="32.512" x2="174.525" y2="37.6205" width="0" layer="19" extent="1-1"/>
+<wire x1="168.934" y1="30.988" x2="168.529" y2="32.512" width="0" layer="19" extent="1-1"/>
+<wire x1="164.3253" y1="30.988" x2="168.529" y2="32.512" width="0" layer="19" extent="1-1"/>
+<wire x1="162.941" y1="31.623" x2="164.3253" y2="30.988" width="0" layer="19" extent="1-1"/>
+<wire x1="159.004" y1="43.688" x2="171.196" y2="40.386" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VDD_A7">
 <contactref element="J50" pad="2"/>
@@ -11186,6 +11306,21 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <via x="13.462" y="66.294" extent="1-16" drill="0.508"/>
 <contactref element="PWR8" pad="1"/>
 <contactref element="J63" pad="1"/>
+<wire x1="26.09" y1="68.961" x2="39.2557" y2="65.151" width="0" layer="19" extent="1-16"/>
+<wire x1="23.075" y1="68.961" x2="26.09" y2="68.961" width="0" layer="19" extent="1-1"/>
+<wire x1="23.075" y1="67.056" x2="23.075" y2="68.961" width="0" layer="19" extent="1-1"/>
+<wire x1="16.791" y1="63.5285" x2="23.075" y2="67.056" width="0" layer="19" extent="1-1"/>
+<wire x1="15.025" y1="67.056" x2="16.791" y2="63.5285" width="0" layer="19" extent="1-1"/>
+<wire x1="13.462" y1="66.294" x2="15.025" y2="67.056" width="0" layer="19" extent="1-1"/>
+<wire x1="15.025" y1="68.961" x2="15.025" y2="67.056" width="0" layer="19" extent="1-1"/>
+<wire x1="14.2" y1="72.136" x2="15.025" y2="68.961" width="0" layer="19" extent="1-1"/>
+<wire x1="26.09" y1="60.071" x2="23.075" y2="67.056" width="0" layer="19" extent="1-1"/>
+<wire x1="29.21" y1="75.946" x2="26.09" y2="68.961" width="0" layer="19" extent="1-1"/>
+<wire x1="10.795" y1="58.42" x2="16.791" y2="63.5285" width="0" layer="19" extent="1-1"/>
+<wire x1="11.2" y1="56.896" x2="10.795" y2="58.42" width="0" layer="19" extent="1-1"/>
+<wire x1="6.5913" y1="56.896" x2="10.795" y2="58.42" width="0" layer="19" extent="1-1"/>
+<wire x1="5.207" y1="57.531" x2="6.5913" y2="56.896" width="0" layer="19" extent="1-1"/>
+<wire x1="1.27" y1="69.596" x2="13.462" y2="66.294" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VDD_A8">
 <contactref element="J57" pad="2"/>
@@ -11527,6 +11662,21 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <via x="66.04" y="66.294" extent="1-16" drill="0.508"/>
 <contactref element="PWR9" pad="1"/>
 <contactref element="J70" pad="1"/>
+<wire x1="78.668" y1="68.961" x2="91.8337" y2="65.151" width="0" layer="19" extent="1-16"/>
+<wire x1="75.653" y1="68.961" x2="78.668" y2="68.961" width="0" layer="19" extent="1-1"/>
+<wire x1="75.653" y1="67.056" x2="75.653" y2="68.961" width="0" layer="19" extent="1-1"/>
+<wire x1="69.369" y1="63.5285" x2="75.653" y2="67.056" width="0" layer="19" extent="1-1"/>
+<wire x1="67.603" y1="67.056" x2="69.369" y2="63.5285" width="0" layer="19" extent="1-1"/>
+<wire x1="66.04" y1="66.294" x2="67.603" y2="67.056" width="0" layer="19" extent="1-1"/>
+<wire x1="67.603" y1="68.961" x2="67.603" y2="67.056" width="0" layer="19" extent="1-1"/>
+<wire x1="66.778" y1="72.136" x2="67.603" y2="68.961" width="0" layer="19" extent="1-1"/>
+<wire x1="78.668" y1="60.071" x2="75.653" y2="67.056" width="0" layer="19" extent="1-1"/>
+<wire x1="81.788" y1="75.946" x2="78.668" y2="68.961" width="0" layer="19" extent="1-1"/>
+<wire x1="63.373" y1="58.42" x2="69.369" y2="63.5285" width="0" layer="19" extent="1-1"/>
+<wire x1="63.778" y1="56.896" x2="63.373" y2="58.42" width="0" layer="19" extent="1-1"/>
+<wire x1="59.1693" y1="56.896" x2="63.373" y2="58.42" width="0" layer="19" extent="1-1"/>
+<wire x1="57.785" y1="57.531" x2="59.1693" y2="56.896" width="0" layer="19" extent="1-1"/>
+<wire x1="53.848" y1="69.596" x2="66.04" y2="66.294" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VDD_A9">
 <contactref element="J64" pad="2"/>
@@ -11868,6 +12018,21 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <via x="118.618" y="66.294" extent="1-16" drill="0.508"/>
 <contactref element="PWR10" pad="1"/>
 <contactref element="J77" pad="1"/>
+<wire x1="131.246" y1="68.961" x2="144.4117" y2="65.151" width="0" layer="19" extent="1-16"/>
+<wire x1="128.231" y1="68.961" x2="131.246" y2="68.961" width="0" layer="19" extent="1-1"/>
+<wire x1="128.231" y1="67.056" x2="128.231" y2="68.961" width="0" layer="19" extent="1-1"/>
+<wire x1="121.947" y1="63.5285" x2="128.231" y2="67.056" width="0" layer="19" extent="1-1"/>
+<wire x1="120.181" y1="67.056" x2="121.947" y2="63.5285" width="0" layer="19" extent="1-1"/>
+<wire x1="118.618" y1="66.294" x2="120.181" y2="67.056" width="0" layer="19" extent="1-1"/>
+<wire x1="120.181" y1="68.961" x2="120.181" y2="67.056" width="0" layer="19" extent="1-1"/>
+<wire x1="119.356" y1="72.136" x2="120.181" y2="68.961" width="0" layer="19" extent="1-1"/>
+<wire x1="131.246" y1="60.071" x2="128.231" y2="67.056" width="0" layer="19" extent="1-1"/>
+<wire x1="134.366" y1="75.946" x2="131.246" y2="68.961" width="0" layer="19" extent="1-1"/>
+<wire x1="115.951" y1="58.42" x2="121.947" y2="63.5285" width="0" layer="19" extent="1-1"/>
+<wire x1="116.356" y1="56.896" x2="115.951" y2="58.42" width="0" layer="19" extent="1-1"/>
+<wire x1="111.7473" y1="56.896" x2="115.951" y2="58.42" width="0" layer="19" extent="1-1"/>
+<wire x1="110.363" y1="57.531" x2="111.7473" y2="56.896" width="0" layer="19" extent="1-1"/>
+<wire x1="106.426" y1="69.596" x2="118.618" y2="66.294" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VDD_A10">
 <contactref element="J71" pad="2"/>
@@ -12209,6 +12374,21 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <via x="171.196" y="66.294" extent="1-16" drill="0.508"/>
 <contactref element="PWR11" pad="1"/>
 <contactref element="J84" pad="1"/>
+<wire x1="180.809" y1="68.961" x2="183.824" y2="68.961" width="0" layer="19" extent="1-1"/>
+<wire x1="180.809" y1="67.056" x2="180.809" y2="68.961" width="0" layer="19" extent="1-1"/>
+<wire x1="174.525" y1="63.5285" x2="180.809" y2="67.056" width="0" layer="19" extent="1-1"/>
+<wire x1="172.759" y1="67.056" x2="174.525" y2="63.5285" width="0" layer="19" extent="1-1"/>
+<wire x1="171.196" y1="66.294" x2="172.759" y2="67.056" width="0" layer="19" extent="1-1"/>
+<wire x1="172.759" y1="68.961" x2="172.759" y2="67.056" width="0" layer="19" extent="1-1"/>
+<wire x1="171.934" y1="72.136" x2="172.759" y2="68.961" width="0" layer="19" extent="1-1"/>
+<wire x1="183.824" y1="60.071" x2="180.809" y2="67.056" width="0" layer="19" extent="1-1"/>
+<wire x1="186.944" y1="75.946" x2="183.824" y2="68.961" width="0" layer="19" extent="1-1"/>
+<wire x1="168.529" y1="58.42" x2="174.525" y2="63.5285" width="0" layer="19" extent="1-1"/>
+<wire x1="168.934" y1="56.896" x2="168.529" y2="58.42" width="0" layer="19" extent="1-1"/>
+<wire x1="164.3253" y1="56.896" x2="168.529" y2="58.42" width="0" layer="19" extent="1-1"/>
+<wire x1="162.941" y1="57.531" x2="164.3253" y2="56.896" width="0" layer="19" extent="1-1"/>
+<wire x1="159.004" y1="69.596" x2="171.196" y2="66.294" width="0" layer="19" extent="1-1"/>
+<wire x1="196.9897" y1="65.151" x2="183.824" y2="68.961" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="VDD_A11">
 <contactref element="J78" pad="2"/>
@@ -12550,6 +12730,21 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <via x="13.462" y="92.202" extent="1-16" drill="0.508"/>
 <contactref element="PWR12" pad="1"/>
 <contactref element="J91" pad="1"/>
+<wire x1="26.09" y1="94.869" x2="29.21" y2="101.854" width="0" layer="19" extent="1-1"/>
+<wire x1="23.075" y1="94.869" x2="26.09" y2="94.869" width="0" layer="19" extent="1-1"/>
+<wire x1="23.075" y1="92.964" x2="23.075" y2="94.869" width="0" layer="19" extent="1-1"/>
+<wire x1="16.791" y1="89.4365" x2="23.075" y2="92.964" width="0" layer="19" extent="1-1"/>
+<wire x1="15.025" y1="92.964" x2="16.791" y2="89.4365" width="0" layer="19" extent="1-1"/>
+<wire x1="13.462" y1="92.202" x2="15.025" y2="92.964" width="0" layer="19" extent="1-1"/>
+<wire x1="15.025" y1="94.869" x2="15.025" y2="92.964" width="0" layer="19" extent="1-1"/>
+<wire x1="14.2" y1="98.044" x2="15.025" y2="94.869" width="0" layer="19" extent="1-1"/>
+<wire x1="26.09" y1="85.979" x2="23.075" y2="92.964" width="0" layer="19" extent="1-1"/>
+<wire x1="10.795" y1="84.328" x2="16.791" y2="89.4365" width="0" layer="19" extent="1-1"/>
+<wire x1="11.2" y1="82.804" x2="10.795" y2="84.328" width="0" layer="19" extent="1-1"/>
+<wire x1="6.5913" y1="82.804" x2="10.795" y2="84.328" width="0" layer="19" extent="1-1"/>
+<wire x1="5.207" y1="83.439" x2="6.5913" y2="82.804" width="0" layer="19" extent="1-1"/>
+<wire x1="1.27" y1="95.504" x2="13.462" y2="92.202" width="0" layer="19" extent="1-1"/>
+<wire x1="39.2557" y1="91.059" x2="26.09" y2="94.869" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="VDD_A12">
 <contactref element="J85" pad="2"/>
@@ -12891,6 +13086,21 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <via x="66.04" y="92.202" extent="1-16" drill="0.508"/>
 <contactref element="PWR13" pad="1"/>
 <contactref element="J98" pad="1"/>
+<wire x1="78.668" y1="94.869" x2="81.788" y2="101.854" width="0" layer="19" extent="1-1"/>
+<wire x1="75.653" y1="94.869" x2="78.668" y2="94.869" width="0" layer="19" extent="1-1"/>
+<wire x1="75.653" y1="92.964" x2="75.653" y2="94.869" width="0" layer="19" extent="1-1"/>
+<wire x1="69.369" y1="89.4365" x2="75.653" y2="92.964" width="0" layer="19" extent="1-1"/>
+<wire x1="67.603" y1="92.964" x2="69.369" y2="89.4365" width="0" layer="19" extent="1-1"/>
+<wire x1="66.04" y1="92.202" x2="67.603" y2="92.964" width="0" layer="19" extent="1-1"/>
+<wire x1="67.603" y1="94.869" x2="67.603" y2="92.964" width="0" layer="19" extent="1-1"/>
+<wire x1="66.778" y1="98.044" x2="67.603" y2="94.869" width="0" layer="19" extent="1-1"/>
+<wire x1="78.668" y1="85.979" x2="75.653" y2="92.964" width="0" layer="19" extent="1-1"/>
+<wire x1="63.373" y1="84.328" x2="69.369" y2="89.4365" width="0" layer="19" extent="1-1"/>
+<wire x1="63.778" y1="82.804" x2="63.373" y2="84.328" width="0" layer="19" extent="1-1"/>
+<wire x1="59.1693" y1="82.804" x2="63.373" y2="84.328" width="0" layer="19" extent="1-1"/>
+<wire x1="57.785" y1="83.439" x2="59.1693" y2="82.804" width="0" layer="19" extent="1-1"/>
+<wire x1="53.848" y1="95.504" x2="66.04" y2="92.202" width="0" layer="19" extent="1-1"/>
+<wire x1="91.8337" y1="91.059" x2="78.668" y2="94.869" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="VDD_A13">
 <contactref element="J92" pad="2"/>
@@ -13232,6 +13442,21 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <via x="118.618" y="92.202" extent="1-16" drill="0.508"/>
 <contactref element="PWR14" pad="1"/>
 <contactref element="J105" pad="1"/>
+<wire x1="131.246" y1="94.869" x2="134.366" y2="101.854" width="0" layer="19" extent="1-1"/>
+<wire x1="128.231" y1="94.869" x2="131.246" y2="94.869" width="0" layer="19" extent="1-1"/>
+<wire x1="128.231" y1="92.964" x2="128.231" y2="94.869" width="0" layer="19" extent="1-1"/>
+<wire x1="121.947" y1="89.4365" x2="128.231" y2="92.964" width="0" layer="19" extent="1-1"/>
+<wire x1="120.181" y1="92.964" x2="121.947" y2="89.4365" width="0" layer="19" extent="1-1"/>
+<wire x1="118.618" y1="92.202" x2="120.181" y2="92.964" width="0" layer="19" extent="1-1"/>
+<wire x1="120.181" y1="94.869" x2="120.181" y2="92.964" width="0" layer="19" extent="1-1"/>
+<wire x1="119.356" y1="98.044" x2="120.181" y2="94.869" width="0" layer="19" extent="1-1"/>
+<wire x1="131.246" y1="85.979" x2="128.231" y2="92.964" width="0" layer="19" extent="1-1"/>
+<wire x1="115.951" y1="84.328" x2="121.947" y2="89.4365" width="0" layer="19" extent="1-1"/>
+<wire x1="116.356" y1="82.804" x2="115.951" y2="84.328" width="0" layer="19" extent="1-1"/>
+<wire x1="111.7473" y1="82.804" x2="115.951" y2="84.328" width="0" layer="19" extent="1-1"/>
+<wire x1="110.363" y1="83.439" x2="111.7473" y2="82.804" width="0" layer="19" extent="1-1"/>
+<wire x1="106.426" y1="95.504" x2="118.618" y2="92.202" width="0" layer="19" extent="1-1"/>
+<wire x1="144.4117" y1="91.059" x2="131.246" y2="94.869" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="VDD_A14">
 <contactref element="J99" pad="2"/>
@@ -13573,6 +13798,21 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <via x="171.196" y="92.202" extent="1-16" drill="0.508"/>
 <contactref element="PWR15" pad="1"/>
 <contactref element="J112" pad="1"/>
+<wire x1="168.934" y1="82.804" x2="168.529" y2="84.328" width="0" layer="19" extent="1-1"/>
+<wire x1="164.3253" y1="82.804" x2="168.529" y2="84.328" width="0" layer="19" extent="1-1"/>
+<wire x1="162.941" y1="83.439" x2="164.3253" y2="82.804" width="0" layer="19" extent="1-1"/>
+<wire x1="174.525" y1="89.4365" x2="168.529" y2="84.328" width="0" layer="19" extent="1-1"/>
+<wire x1="172.759" y1="92.964" x2="174.525" y2="89.4365" width="0" layer="19" extent="1-1"/>
+<wire x1="171.196" y1="92.202" x2="172.759" y2="92.964" width="0" layer="19" extent="1-1"/>
+<wire x1="172.759" y1="94.869" x2="172.759" y2="92.964" width="0" layer="19" extent="1-1"/>
+<wire x1="171.934" y1="98.044" x2="172.759" y2="94.869" width="0" layer="19" extent="1-1"/>
+<wire x1="180.809" y1="92.964" x2="174.525" y2="89.4365" width="0" layer="19" extent="1-1"/>
+<wire x1="180.809" y1="94.869" x2="180.809" y2="92.964" width="0" layer="19" extent="1-1"/>
+<wire x1="183.824" y1="94.869" x2="180.809" y2="94.869" width="0" layer="19" extent="1-1"/>
+<wire x1="183.824" y1="85.979" x2="180.809" y2="92.964" width="0" layer="19" extent="1-1"/>
+<wire x1="186.944" y1="101.854" x2="183.824" y2="94.869" width="0" layer="19" extent="1-1"/>
+<wire x1="159.004" y1="95.504" x2="171.196" y2="92.202" width="0" layer="19" extent="1-1"/>
+<wire x1="196.9897" y1="91.059" x2="183.824" y2="94.869" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="VDD_A15">
 <contactref element="J106" pad="2"/>

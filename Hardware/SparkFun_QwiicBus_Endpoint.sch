@@ -32558,7 +32558,7 @@ the PWR LED</text>
 <attribute name="NAME" x="12.7" y="25.908" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="LOGO3" gate="G$1" x="116.84" y="5.08" smashed="yes"/>
-<instance part="LOGO4" gate="G$1" x="90.17" y="4.572" smashed="yes"/>
+<instance part="LOGO4" gate="G$1" x="91.44" y="4.318" smashed="yes"/>
 </instances>
 <busses>
 </busses>
