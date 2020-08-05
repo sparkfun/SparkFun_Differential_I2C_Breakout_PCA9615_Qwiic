@@ -5528,10 +5528,17 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <contactref element="GND" pad="1"/>
 <contactref element="J4" pad="1"/>
 <via x="10.795" y="6.604" extent="1-16" drill="0.508"/>
-<via x="5.207" y="5.715" extent="1-16" drill="0.508"/>
+<via x="5.207" y="5.715" extent="1-16" drill="0.381"/>
 <via x="13.462" y="14.478" extent="1-16" drill="0.508"/>
 <contactref element="PWR" pad="1"/>
 <contactref element="J8" pad="1"/>
+<via x="23.114" y="18.288" extent="1-16" drill="0.381"/>
+<via x="38.354" y="15.748" extent="1-16" drill="0.381"/>
+<wire x1="39.2557" y1="13.335" x2="39.2557" y2="15.1257" width="0.254" layer="16"/>
+<wire x1="39.2557" y1="15.1257" x2="39.37" y2="15.24" width="0.254" layer="16"/>
+<wire x1="39.2557" y1="13.335" x2="40.767" y2="13.335" width="0.254" layer="16"/>
+<wire x1="39.2557" y1="13.335" x2="39.2557" y2="11.8237" width="0.254" layer="16"/>
+<wire x1="39.2557" y1="11.8237" x2="39.116" y2="11.684" width="0.254" layer="16"/>
 </signal>
 <signal name="VDD_A">
 <contactref element="J1" pad="2"/>
@@ -5606,18 +5613,20 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="26.035" y1="10.85" x2="26.09" y2="10.795" width="0.254" layer="1"/>
 <wire x1="26.09" y1="14.605" x2="26.035" y2="14.55" width="0.254" layer="1"/>
 <wire x1="26.035" y1="14.55" x2="26.035" y2="12.7" width="0.254" layer="1"/>
-<wire x1="28.0543" y1="12.065" x2="26.67" y2="12.065" width="0.254" layer="16"/>
-<wire x1="26.67" y1="12.065" x2="26.035" y2="12.7" width="0.254" layer="16"/>
-<wire x1="26.035" y1="15.621" x2="26.035" y2="12.7" width="0.254" layer="16"/>
-<wire x1="22.225" y1="19.05" x2="21.375" y2="18.2" width="0.254" layer="1"/>
-<wire x1="21.375" y1="18.2" x2="21.375" y2="17.145" width="0.254" layer="1"/>
-<wire x1="22.225" y1="19.05" x2="26.035" y2="19.05" width="0.254" layer="1"/>
-<wire x1="26.035" y1="19.05" x2="26.67" y2="19.685" width="0.254" layer="1"/>
-<wire x1="26.67" y1="19.685" x2="26.67" y2="24.13" width="0.254" layer="1"/>
+<wire x1="28.0543" y1="12.065" x2="26.67" y2="12.065" width="1.016" layer="16"/>
+<wire x1="26.67" y1="12.065" x2="26.035" y2="12.7" width="1.016" layer="16"/>
+<wire x1="26.035" y1="15.621" x2="26.035" y2="12.7" width="1.016" layer="16"/>
+<wire x1="22.225" y1="19.431" x2="21.375" y2="18.581" width="1.016" layer="1"/>
+<wire x1="21.375" y1="18.581" x2="21.375" y2="17.145" width="1.016" layer="1"/>
+<wire x1="22.225" y1="19.431" x2="24.511" y2="19.431" width="1.016" layer="1"/>
+<wire x1="24.511" y1="19.431" x2="25.908" y2="19.431" width="1.016" layer="1"/>
+<wire x1="25.908" y1="19.431" x2="26.67" y2="20.193" width="1.016" layer="1"/>
+<wire x1="26.67" y1="20.193" x2="26.67" y2="24.13" width="1.016" layer="1"/>
 <wire x1="24.13" y1="14.224" x2="24.13" y2="16.764" width="0.254" layer="1"/>
 <wire x1="24.13" y1="16.764" x2="24.511" y2="17.145" width="0.254" layer="1"/>
-<wire x1="26.035" y1="15.621" x2="24.511" y2="17.145" width="0.254" layer="16"/>
+<wire x1="26.035" y1="15.621" x2="24.511" y2="17.145" width="1.016" layer="16"/>
 <wire x1="19.5707" y1="17.145" x2="19.5707" y2="17.3863" width="0.254" layer="1"/>
+<wire x1="24.511" y1="17.145" x2="24.511" y2="19.431" width="1.016" layer="1"/>
 </signal>
 <signal name="EN">
 <contactref element="U1" pad="3"/>
@@ -5744,12 +5753,14 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <signal name="N$1">
 <contactref element="VDDB" pad="2"/>
 <contactref element="J3" pad="4"/>
-<wire x1="29.0957" y1="12.065" x2="32.385" y2="12.065" width="0.254" layer="16"/>
+<wire x1="29.0957" y1="12.065" x2="32.385" y2="12.065" width="1.016" layer="16"/>
+<wire x1="29.0957" y1="12.065" x2="28.067" y2="12.065" width="1.016" layer="16"/>
 </signal>
 <signal name="N$2">
 <contactref element="GND" pad="2"/>
 <contactref element="J3" pad="5"/>
-<wire x1="38.2143" y1="13.335" x2="34.925" y2="13.335" width="0.254" layer="16"/>
+<wire x1="38.2143" y1="13.335" x2="34.925" y2="13.335" width="1.016" layer="16"/>
+<wire x1="38.2143" y1="13.335" x2="39.116" y2="13.335" width="1.016" layer="16"/>
 </signal>
 <signal name="GRN_P">
 <contactref element="J3" pad="3"/>
