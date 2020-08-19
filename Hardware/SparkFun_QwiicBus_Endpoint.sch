@@ -32280,9 +32280,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="H2" library="SparkFun-Hardware" deviceset="STAND-OFF" device=""/>
 <part name="H3" library="SparkFun-Hardware" deviceset="STAND-OFF" device=""/>
 <part name="H4" library="SparkFun-Hardware" deviceset="STAND-OFF" device=""/>
-<part name="J4" library="SparkFun-Connectors" deviceset="CONN_02" device="1X02_NO_SILK"/>
 <part name="SUPPLY15" library="SparkFun-PowerSymbols" deviceset="VCC_1" device="" value="VDD_A"/>
-<part name="SUPPLY16" library="SparkFun-PowerSymbols" deviceset="VCC_2" device="" value="VDD_B"/>
 <part name="SUPPLY14" library="SparkFun-PowerSymbols" deviceset="VCC_1" device="" value="VDD_A"/>
 <part name="LOGO1" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="M"/>
 <part name="VDDB" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="JUMPER-SMT_2_NC_TRACE_SILK"/>
@@ -32293,7 +32291,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="FD3" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
 <part name="FD4" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
 <part name="LOGO5" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_NAME" device=".1_INCH"/>
-<part name="GND12" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="J5" library="SparkFun-Connectors" deviceset="CONN_01" device="PTH_NO_SILK_YES_STOP"/>
 <part name="LOGO2" library="SparkFun-Aesthetics" deviceset="REVISION" device=""/>
 <part name="J7" library="SparkFun-Connectors" deviceset="CONN_02" device="1X02_NO_SILK"/>
@@ -32496,15 +32493,8 @@ the PWR LED</text>
 <instance part="H2" gate="G$1" x="231.14" y="33.02" smashed="yes"/>
 <instance part="H3" gate="G$1" x="231.14" y="30.48" smashed="yes"/>
 <instance part="H4" gate="G$1" x="228.6" y="30.48" smashed="yes"/>
-<instance part="J4" gate="G$1" x="48.26" y="22.86" smashed="yes">
-<attribute name="VALUE" x="45.72" y="18.034" size="1.778" layer="96" font="vector"/>
-<attribute name="NAME" x="45.72" y="28.448" size="1.778" layer="95" font="vector"/>
-</instance>
 <instance part="SUPPLY15" gate="G$2" x="25.4" y="27.94" smashed="yes">
 <attribute name="VALUE" x="25.4" y="30.734" size="1.778" layer="96" font="vector" align="bottom-center"/>
-</instance>
-<instance part="SUPPLY16" gate="G$1" x="58.42" y="27.94" smashed="yes">
-<attribute name="VALUE" x="58.42" y="30.734" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
 <instance part="SUPPLY14" gate="G$2" x="114.3" y="76.2" smashed="yes">
 <attribute name="VALUE" x="114.3" y="78.994" size="1.778" layer="96" font="vector" align="bottom-center"/>
@@ -32524,9 +32514,6 @@ the PWR LED</text>
 <instance part="FD3" gate="G$1" x="243.84" y="33.02" smashed="yes"/>
 <instance part="FD4" gate="G$1" x="243.84" y="30.48" smashed="yes"/>
 <instance part="LOGO5" gate="G$1" x="90.17" y="4.572" smashed="yes"/>
-<instance part="GND12" gate="1" x="58.42" y="17.78" smashed="yes">
-<attribute name="VALUE" x="58.42" y="17.526" size="1.778" layer="96" font="vector" align="top-center"/>
-</instance>
 <instance part="J5" gate="G$1" x="48.26" y="10.16" smashed="yes">
 <attribute name="VALUE" x="45.72" y="5.334" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="45.72" y="13.208" size="1.778" layer="95" font="vector"/>
@@ -32681,12 +32668,6 @@ the PWR LED</text>
 <wire x1="182.88" y1="60.96" x2="182.88" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="GND12" gate="1" pin="GND"/>
-<pinref part="J4" gate="G$1" pin="1"/>
-<wire x1="58.42" y1="20.32" x2="58.42" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="22.86" x2="55.88" y2="22.86" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="GND18" gate="1" pin="GND"/>
 <pinref part="PWR" gate="G$1" pin="1"/>
 <wire x1="71.12" y1="132.08" x2="71.12" y2="129.54" width="0.1524" layer="91" style="longdash"/>
@@ -32776,12 +32757,6 @@ the PWR LED</text>
 <pinref part="A-B" gate="G$1" pin="2"/>
 <wire x1="25.4" y1="96.52" x2="25.4" y2="93.98" width="0.1524" layer="91" style="dashdot"/>
 <wire x1="25.4" y1="93.98" x2="22.86" y2="93.98" width="0.1524" layer="91" style="dashdot"/>
-</segment>
-<segment>
-<pinref part="SUPPLY16" gate="G$1" pin="VCC_2"/>
-<pinref part="J4" gate="G$1" pin="2"/>
-<wire x1="58.42" y1="27.94" x2="58.42" y2="25.4" width="0.1524" layer="91" style="longdash"/>
-<wire x1="58.42" y1="25.4" x2="55.88" y2="25.4" width="0.1524" layer="91" style="longdash"/>
 </segment>
 <segment>
 <pinref part="SUPPLY13" gate="G$1" pin="VCC_2"/>
