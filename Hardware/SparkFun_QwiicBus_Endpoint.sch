@@ -30737,18 +30737,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
 <text x="0" y="-0.254" size="1.778" layer="96" align="top-center">&gt;VALUE</text>
 </symbol>
-<symbol name="VCC_1">
-<description>&lt;h3&gt;VCC1 Voltage Supply&lt;/h3&gt;</description>
+<symbol name="3.3V">
+<description>&lt;h3&gt;3.3V Voltage Supply&lt;/h3&gt;</description>
 <wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
 <wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
-<pin name="VCC_1" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
-<text x="0" y="2.794" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
-</symbol>
-<symbol name="VCC_2">
-<description>&lt;h3&gt;VCC2 Voltage Supply&lt;/h3&gt;</description>
-<wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
-<pin name="VCC_2" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
+<pin name="3.3V" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
 <text x="0" y="2.794" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
 </symbol>
 </symbols>
@@ -30767,25 +30760,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </device>
 </devices>
 </deviceset>
-<deviceset name="VCC_1" prefix="SUPPLY">
-<description>&lt;h3&gt;VCC1 Voltage Supply&lt;/h3&gt;
-&lt;p&gt;Primary VCC voltage supply - Useful for a system with multiple VCC supplies.&lt;/p&gt;</description>
+<deviceset name="3.3V" prefix="SUPPLY">
+<description>&lt;h3&gt;3.3V Supply Symbol&lt;/h3&gt;
+&lt;p&gt;Power supply symbol for a specifically-stated 3.3V source.&lt;/p&gt;</description>
 <gates>
-<gate name="G$2" symbol="VCC_1" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="VCC_2" prefix="SUPPLY">
-<description>&lt;h3&gt;VCC2 Voltage Supply&lt;/h3&gt;
-&lt;p&gt;Secondary VCC voltage supply - Useful for a system with multiple VCC supplies.&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="VCC_2" x="0" y="0"/>
+<gate name="G$1" symbol="3.3V" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -32240,10 +32219,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="U1" library="SparkFun-IC-Comms" deviceset="PCA9615" device=""/>
 <part name="J2" library="SparkFun-Connectors" deviceset="QWIIC_CONNECTOR" device="JS-1MM" value="QWIIC"/>
 <part name="GND2" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="SUPPLY3" library="SparkFun-PowerSymbols" deviceset="VCC_1" device="" value="VDD_A"/>
-<part name="SUPPLY1" library="SparkFun-PowerSymbols" deviceset="VCC_1" device="" value="VDD_A"/>
-<part name="SUPPLY2" library="SparkFun-PowerSymbols" deviceset="VCC_2" device="" value="VDD_B"/>
-<part name="SUPPLY4" library="SparkFun-PowerSymbols" deviceset="VCC_1" device="" value="VDD_A"/>
 <part name="GND3" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="R1" library="SparkFun-Resistors" deviceset="390OHM" device="-0603-1/10W-1%" value="390"/>
 <part name="R2" library="SparkFun-Resistors" deviceset="100OHM" device="-0603-1/10W-1%" value="100"/>
@@ -32251,8 +32226,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R4" library="SparkFun-Resistors" deviceset="390OHM" device="-0603-1/10W-1%" value="390"/>
 <part name="R5" library="SparkFun-Resistors" deviceset="100OHM" device="-0603-1/10W-1%" value="100"/>
 <part name="R6" library="SparkFun-Resistors" deviceset="390OHM" device="-0603-1/10W-1%" value="390"/>
-<part name="SUPPLY5" library="SparkFun-PowerSymbols" deviceset="VCC_2" device="" value="VDD_B"/>
-<part name="SUPPLY6" library="SparkFun-PowerSymbols" deviceset="VCC_2" device="" value="VDD_B"/>
 <part name="GND4" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND5" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="C1" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" value="0.1uF"/>
@@ -32263,13 +32236,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND7" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND8" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND9" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="SUPPLY7" library="SparkFun-PowerSymbols" deviceset="VCC_1" device="" value="VDD_A"/>
-<part name="SUPPLY8" library="SparkFun-PowerSymbols" deviceset="VCC_1" device="" value="VDD_A"/>
-<part name="SUPPLY9" library="SparkFun-PowerSymbols" deviceset="VCC_2" device="" value="VDD_B"/>
-<part name="SUPPLY10" library="SparkFun-PowerSymbols" deviceset="VCC_2" device="" value="VDD_B"/>
-<part name="A-B" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="JUMPER"/>
-<part name="SUPPLY11" library="SparkFun-PowerSymbols" deviceset="VCC_1" device="" value="VDD_A"/>
-<part name="SUPPLY12" library="SparkFun-PowerSymbols" deviceset="VCC_2" device="" value="VDD_B"/>
 <part name="J3" library="SparkFun-Connectors" deviceset="RJ45-8" device="" value="RJ45"/>
 <part name="GND10" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="R7" library="SparkFun-Resistors" deviceset="4.7KOHM" device="-0603-1/10W-1%" value="4.7k"/>
@@ -32280,12 +32246,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="H2" library="SparkFun-Hardware" deviceset="STAND-OFF" device=""/>
 <part name="H3" library="SparkFun-Hardware" deviceset="STAND-OFF" device=""/>
 <part name="H4" library="SparkFun-Hardware" deviceset="STAND-OFF" device=""/>
-<part name="SUPPLY15" library="SparkFun-PowerSymbols" deviceset="VCC_1" device="" value="VDD_A"/>
-<part name="SUPPLY14" library="SparkFun-PowerSymbols" deviceset="VCC_1" device="" value="VDD_A"/>
 <part name="LOGO1" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="M"/>
 <part name="VDDB" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="JUMPER-SMT_2_NC_TRACE_SILK"/>
 <part name="GND" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="JUMPER-SMT_2_NC_TRACE_SILK"/>
-<part name="SUPPLY13" library="SparkFun-PowerSymbols" deviceset="VCC_2" device="" value="VDD_B"/>
 <part name="FD1" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
 <part name="FD2" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
 <part name="FD3" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
@@ -32298,10 +32261,23 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="D11" library="SparkFun-LED" deviceset="LED-RED" device="0603" value="RED"/>
 <part name="GND18" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="PWR" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1"/>
-<part name="SUPPLY17" library="SparkFun-PowerSymbols" deviceset="VCC_1" device="" value="VDD_A"/>
 <part name="J8" library="SparkFun-Connectors" deviceset="CONN_04" device="1X04_NO_SILK"/>
 <part name="LOGO3" library="SparkFun-Aesthetics" deviceset="QWIIC_LOGO" device="_4MM"/>
 <part name="LOGO4" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_NAME_FLAME" device=".1_INCH"/>
+<part name="SUPPLY1" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
+<part name="SUPPLY2" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
+<part name="SUPPLY3" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
+<part name="SUPPLY4" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
+<part name="SUPPLY5" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
+<part name="SUPPLY6" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
+<part name="SUPPLY7" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
+<part name="SUPPLY8" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
+<part name="SUPPLY9" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
+<part name="SUPPLY10" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
+<part name="SUPPLY11" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
+<part name="SUPPLY12" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
+<part name="SUPPLY13" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
+<part name="SUPPLY14" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -32367,18 +32343,6 @@ the PWR LED</text>
 <instance part="GND2" gate="1" x="63.5" y="50.8" smashed="yes">
 <attribute name="VALUE" x="63.5" y="50.546" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="SUPPLY3" gate="G$2" x="25.4" y="66.04" smashed="yes">
-<attribute name="VALUE" x="25.4" y="68.834" size="1.778" layer="96" font="vector" align="bottom-center"/>
-</instance>
-<instance part="SUPPLY1" gate="G$2" x="63.5" y="66.04" smashed="yes">
-<attribute name="VALUE" x="63.5" y="68.834" size="1.778" layer="96" font="vector" align="bottom-center"/>
-</instance>
-<instance part="SUPPLY2" gate="G$1" x="45.72" y="170.18" smashed="yes">
-<attribute name="VALUE" x="45.72" y="172.974" size="1.778" layer="96" font="vector" align="bottom-center"/>
-</instance>
-<instance part="SUPPLY4" gate="G$2" x="10.16" y="170.18" smashed="yes">
-<attribute name="VALUE" x="10.16" y="172.974" size="1.778" layer="96" font="vector" align="bottom-center"/>
-</instance>
 <instance part="GND3" gate="1" x="10.16" y="152.4" smashed="yes">
 <attribute name="VALUE" x="10.16" y="152.146" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
@@ -32405,12 +32369,6 @@ the PWR LED</text>
 <instance part="R6" gate="G$1" x="185.42" y="127" smashed="yes" rot="R90">
 <attribute name="NAME" x="183.896" y="127" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="186.944" y="127" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
-</instance>
-<instance part="SUPPLY5" gate="G$1" x="142.24" y="167.64" smashed="yes">
-<attribute name="VALUE" x="142.24" y="170.434" size="1.778" layer="96" font="vector" align="bottom-center"/>
-</instance>
-<instance part="SUPPLY6" gate="G$1" x="185.42" y="167.64" smashed="yes">
-<attribute name="VALUE" x="185.42" y="170.434" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
 <instance part="GND4" gate="1" x="142.24" y="116.84" smashed="yes">
 <attribute name="VALUE" x="142.24" y="116.586" size="1.778" layer="96" font="vector" align="top-center"/>
@@ -32446,28 +32404,6 @@ the PWR LED</text>
 <instance part="GND9" gate="1" x="50.8" y="127" smashed="yes">
 <attribute name="VALUE" x="50.8" y="126.746" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="SUPPLY7" gate="G$2" x="10.16" y="142.24" smashed="yes">
-<attribute name="VALUE" x="10.16" y="145.034" size="1.778" layer="96" font="vector" align="bottom-center"/>
-</instance>
-<instance part="SUPPLY8" gate="G$2" x="22.86" y="142.24" smashed="yes">
-<attribute name="VALUE" x="22.86" y="145.034" size="1.778" layer="96" font="vector" align="bottom-center"/>
-</instance>
-<instance part="SUPPLY9" gate="G$1" x="38.1" y="142.24" smashed="yes">
-<attribute name="VALUE" x="38.1" y="145.034" size="1.778" layer="96" font="vector" align="bottom-center"/>
-</instance>
-<instance part="SUPPLY10" gate="G$1" x="50.8" y="142.24" smashed="yes">
-<attribute name="VALUE" x="50.8" y="145.034" size="1.778" layer="96" font="vector" align="bottom-center"/>
-</instance>
-<instance part="A-B" gate="G$1" x="17.78" y="93.98" smashed="yes">
-<attribute name="NAME" x="15.24" y="96.52" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="15.24" y="91.44" size="1.778" layer="96" font="vector" align="top-left"/>
-</instance>
-<instance part="SUPPLY11" gate="G$2" x="10.16" y="96.52" smashed="yes">
-<attribute name="VALUE" x="10.16" y="99.314" size="1.778" layer="96" font="vector" align="bottom-center"/>
-</instance>
-<instance part="SUPPLY12" gate="G$1" x="25.4" y="96.52" smashed="yes">
-<attribute name="VALUE" x="25.4" y="99.314" size="1.778" layer="96" font="vector" align="bottom-center"/>
-</instance>
 <instance part="J3" gate="JP1" x="220.98" y="63.5" smashed="yes">
 <attribute name="NAME" x="215.9" y="74.168" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="215.9" y="48.26" size="1.778" layer="95" font="vector"/>
@@ -32493,21 +32429,12 @@ the PWR LED</text>
 <instance part="H2" gate="G$1" x="231.14" y="33.02" smashed="yes"/>
 <instance part="H3" gate="G$1" x="231.14" y="30.48" smashed="yes"/>
 <instance part="H4" gate="G$1" x="228.6" y="30.48" smashed="yes"/>
-<instance part="SUPPLY15" gate="G$2" x="25.4" y="27.94" smashed="yes">
-<attribute name="VALUE" x="25.4" y="30.734" size="1.778" layer="96" font="vector" align="bottom-center"/>
-</instance>
-<instance part="SUPPLY14" gate="G$2" x="114.3" y="76.2" smashed="yes">
-<attribute name="VALUE" x="114.3" y="78.994" size="1.778" layer="96" font="vector" align="bottom-center"/>
-</instance>
 <instance part="LOGO1" gate="G$1" x="104.14" y="27.94" smashed="yes"/>
 <instance part="VDDB" gate="G$1" x="198.12" y="63.5" smashed="yes">
 <attribute name="NAME" x="195.58" y="65.024" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="GND" gate="G$1" x="190.5" y="60.96" smashed="yes">
 <attribute name="NAME" x="188.214" y="57.658" size="1.778" layer="95" font="vector"/>
-</instance>
-<instance part="SUPPLY13" gate="G$1" x="190.5" y="76.2" smashed="yes">
-<attribute name="VALUE" x="190.5" y="78.994" size="1.778" layer="96" font="vector" align="bottom-center"/>
 </instance>
 <instance part="FD1" gate="G$1" x="246.38" y="33.02" smashed="yes"/>
 <instance part="FD2" gate="G$1" x="246.38" y="30.48" smashed="yes"/>
@@ -32537,15 +32464,54 @@ the PWR LED</text>
 <instance part="PWR" gate="G$1" x="71.12" y="137.16" smashed="yes" rot="R90">
 <attribute name="NAME" x="73.66" y="139.7" size="1.778" layer="95" font="vector" rot="R270"/>
 </instance>
-<instance part="SUPPLY17" gate="G$2" x="71.12" y="167.64" smashed="yes">
-<attribute name="VALUE" x="71.12" y="170.434" size="1.778" layer="96" font="vector" align="bottom-center"/>
-</instance>
 <instance part="J8" gate="J1" x="17.78" y="17.78" smashed="yes">
 <attribute name="VALUE" x="12.7" y="10.414" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="12.7" y="25.908" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="LOGO3" gate="G$1" x="116.84" y="5.08" smashed="yes"/>
 <instance part="LOGO4" gate="G$1" x="91.44" y="4.318" smashed="yes"/>
+<instance part="SUPPLY1" gate="G$1" x="10.16" y="170.18" smashed="yes">
+<attribute name="VALUE" x="10.16" y="172.974" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="SUPPLY2" gate="G$1" x="45.72" y="170.18" smashed="yes">
+<attribute name="VALUE" x="45.72" y="172.974" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="SUPPLY3" gate="G$1" x="50.8" y="142.24" smashed="yes">
+<attribute name="VALUE" x="50.8" y="145.034" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="SUPPLY4" gate="G$1" x="38.1" y="142.24" smashed="yes">
+<attribute name="VALUE" x="38.1" y="145.034" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="SUPPLY5" gate="G$1" x="22.86" y="142.24" smashed="yes">
+<attribute name="VALUE" x="22.86" y="145.034" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="SUPPLY6" gate="G$1" x="10.16" y="142.24" smashed="yes">
+<attribute name="VALUE" x="10.16" y="145.034" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="SUPPLY7" gate="G$1" x="71.12" y="167.64" smashed="yes">
+<attribute name="VALUE" x="71.12" y="170.434" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="SUPPLY8" gate="G$1" x="142.24" y="167.64" smashed="yes">
+<attribute name="VALUE" x="142.24" y="170.434" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="SUPPLY9" gate="G$1" x="185.42" y="167.64" smashed="yes">
+<attribute name="VALUE" x="185.42" y="170.434" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="SUPPLY10" gate="G$1" x="190.5" y="76.2" smashed="yes">
+<attribute name="VALUE" x="190.5" y="78.994" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="SUPPLY11" gate="G$1" x="114.3" y="76.2" smashed="yes">
+<attribute name="VALUE" x="114.3" y="78.994" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="SUPPLY12" gate="G$1" x="25.4" y="66.04" smashed="yes">
+<attribute name="VALUE" x="25.4" y="68.834" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="SUPPLY13" gate="G$1" x="63.5" y="66.04" smashed="yes">
+<attribute name="VALUE" x="63.5" y="68.834" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="SUPPLY14" gate="G$1" x="25.4" y="27.94" smashed="yes">
+<attribute name="VALUE" x="25.4" y="30.734" size="1.778" layer="96" align="bottom-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -32673,96 +32639,82 @@ the PWR LED</text>
 <wire x1="71.12" y1="132.08" x2="71.12" y2="129.54" width="0.1524" layer="91" style="longdash"/>
 </segment>
 </net>
-<net name="VDD_A" class="0">
+<net name="3.3V" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="VDDB"/>
+<wire x1="45.72" y1="170.18" x2="45.72" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="167.64" x2="43.18" y2="167.64" width="0.1524" layer="91"/>
+<pinref part="SUPPLY2" gate="G$1" pin="3.3V"/>
+</segment>
+<segment>
+<pinref part="R1" gate="G$1" pin="2"/>
+<wire x1="142.24" y1="167.64" x2="142.24" y2="165.1" width="0.1524" layer="91"/>
+<pinref part="SUPPLY8" gate="G$1" pin="3.3V"/>
+</segment>
+<segment>
+<pinref part="R4" gate="G$1" pin="2"/>
+<wire x1="185.42" y1="167.64" x2="185.42" y2="165.1" width="0.1524" layer="91"/>
+<pinref part="SUPPLY9" gate="G$1" pin="3.3V"/>
+</segment>
+<segment>
+<pinref part="C2" gate="G$1" pin="1"/>
+<wire x1="38.1" y1="142.24" x2="38.1" y2="139.7" width="0.1524" layer="91"/>
+<pinref part="SUPPLY4" gate="G$1" pin="3.3V"/>
+</segment>
+<segment>
+<pinref part="C4" gate="G$1" pin="1"/>
+<wire x1="50.8" y1="142.24" x2="50.8" y2="139.7" width="0.1524" layer="91"/>
+<pinref part="SUPPLY3" gate="G$1" pin="3.3V"/>
+</segment>
+<segment>
+<pinref part="VDDB" gate="G$1" pin="1"/>
+<wire x1="190.5" y1="76.2" x2="190.5" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="63.5" x2="193.04" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="SUPPLY10" gate="G$1" pin="3.3V"/>
+</segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="2"/>
 <wire x1="22.86" y1="58.42" x2="25.4" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="58.42" x2="25.4" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="SUPPLY3" gate="G$2" pin="VCC_1"/>
+<pinref part="SUPPLY12" gate="G$1" pin="3.3V"/>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="2"/>
 <wire x1="60.96" y1="58.42" x2="63.5" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="58.42" x2="63.5" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="SUPPLY1" gate="G$2" pin="VCC_1"/>
+<pinref part="SUPPLY13" gate="G$1" pin="3.3V"/>
 </segment>
 <segment>
-<pinref part="SUPPLY4" gate="G$2" pin="VCC_1"/>
 <pinref part="U1" gate="G$1" pin="VDDA"/>
 <wire x1="10.16" y1="170.18" x2="10.16" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="10.16" y1="167.64" x2="12.7" y2="167.64" width="0.1524" layer="91"/>
+<pinref part="SUPPLY1" gate="G$1" pin="3.3V"/>
 </segment>
 <segment>
 <pinref part="C1" gate="G$1" pin="1"/>
-<pinref part="SUPPLY7" gate="G$2" pin="VCC_1"/>
 <wire x1="10.16" y1="142.24" x2="10.16" y2="139.7" width="0.1524" layer="91"/>
+<pinref part="SUPPLY6" gate="G$1" pin="3.3V"/>
 </segment>
 <segment>
 <pinref part="C3" gate="G$1" pin="1"/>
-<pinref part="SUPPLY8" gate="G$2" pin="VCC_1"/>
 <wire x1="22.86" y1="142.24" x2="22.86" y2="139.7" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="SUPPLY11" gate="G$2" pin="VCC_1"/>
-<pinref part="A-B" gate="G$1" pin="1"/>
-<wire x1="10.16" y1="96.52" x2="10.16" y2="93.98" width="0.1524" layer="91" style="dashdot"/>
-<wire x1="10.16" y1="93.98" x2="12.7" y2="93.98" width="0.1524" layer="91" style="dashdot"/>
+<pinref part="SUPPLY5" gate="G$1" pin="3.3V"/>
 </segment>
 <segment>
 <wire x1="22.86" y1="17.78" x2="25.4" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="17.78" x2="25.4" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="SUPPLY15" gate="G$2" pin="VCC_1"/>
 <pinref part="J8" gate="J1" pin="2"/>
+<pinref part="SUPPLY14" gate="G$1" pin="3.3V"/>
 </segment>
 <segment>
 <wire x1="114.3" y1="76.2" x2="114.3" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="I2C" gate="G$1" pin="2"/>
-<pinref part="SUPPLY14" gate="G$2" pin="VCC_1"/>
+<pinref part="SUPPLY11" gate="G$1" pin="3.3V"/>
 </segment>
 <segment>
 <pinref part="D11" gate="G$1" pin="A"/>
 <wire x1="71.12" y1="167.64" x2="71.12" y2="165.1" width="0.1524" layer="91"/>
-<pinref part="SUPPLY17" gate="G$2" pin="VCC_1"/>
-</segment>
-</net>
-<net name="VDD_B" class="0">
-<segment>
-<pinref part="SUPPLY2" gate="G$1" pin="VCC_2"/>
-<pinref part="U1" gate="G$1" pin="VDDB"/>
-<wire x1="45.72" y1="170.18" x2="45.72" y2="167.64" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="167.64" x2="43.18" y2="167.64" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="R1" gate="G$1" pin="2"/>
-<pinref part="SUPPLY5" gate="G$1" pin="VCC_2"/>
-<wire x1="142.24" y1="167.64" x2="142.24" y2="165.1" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="R4" gate="G$1" pin="2"/>
-<pinref part="SUPPLY6" gate="G$1" pin="VCC_2"/>
-<wire x1="185.42" y1="167.64" x2="185.42" y2="165.1" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="C2" gate="G$1" pin="1"/>
-<pinref part="SUPPLY9" gate="G$1" pin="VCC_2"/>
-<wire x1="38.1" y1="142.24" x2="38.1" y2="139.7" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="C4" gate="G$1" pin="1"/>
-<pinref part="SUPPLY10" gate="G$1" pin="VCC_2"/>
-<wire x1="50.8" y1="142.24" x2="50.8" y2="139.7" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="SUPPLY12" gate="G$1" pin="VCC_2"/>
-<pinref part="A-B" gate="G$1" pin="2"/>
-<wire x1="25.4" y1="96.52" x2="25.4" y2="93.98" width="0.1524" layer="91" style="dashdot"/>
-<wire x1="25.4" y1="93.98" x2="22.86" y2="93.98" width="0.1524" layer="91" style="dashdot"/>
-</segment>
-<segment>
-<pinref part="SUPPLY13" gate="G$1" pin="VCC_2"/>
-<pinref part="VDDB" gate="G$1" pin="1"/>
-<wire x1="190.5" y1="76.2" x2="190.5" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="190.5" y1="63.5" x2="193.04" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="SUPPLY7" gate="G$1" pin="3.3V"/>
 </segment>
 </net>
 <net name="EN" class="0">
