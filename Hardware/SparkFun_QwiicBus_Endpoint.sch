@@ -25383,11 +25383,22 @@ to disconnect VCC1 and GND from cable. </text>
 <text x="83.566" y="113.284" size="1.778" layer="97" font="vector" rot="R90">Cut the PWR 
 jumper to disable
 the PWR LED</text>
-<text x="5.08" y="177.8" size="1.778" layer="94">VIN: 3.0-5.5V</text>
+<text x="5.08" y="177.8" size="1.778" layer="94" font="vector">VIN: 3.0-5.5V</text>
 <text x="5.08" y="101.6" size="1.778" layer="94" font="vector">VCC: I2C-bus side power supply (2.3V-5.5V)
 VCC1: Differential side power supply (3.0V-5.5V)</text>
 <text x="15.24" y="167.64" size="1.778" layer="94" font="vector">Cut 0-1 Jumper to provide
-separate voltage to VCC1</text>
+separate voltage to VCC1 and VCC
+(VCC0)</text>
+<text x="91.44" y="93.98" size="1.27" layer="97" font="vector">Depending on load and distance requirements, there are several different ways to power the Midpoint/Endpoint combo. 
+---
+The default option powers the entire system using 3.3V, in this configuration, the BP jumper is closed and both sides of the PSEL jumper are open.
+---
+To power the VCC_1 rail with 5V (The PCA9615 operates better at this voltage), the BP jumper must be opened. Then close the "1" side of 
+the PSEL jumper. Also ensure that 5V is connected on the VCC_1 pin on the Qwiic Endpoint
+---
+If many devices need to be powered, it is possible to send up to 36V over the green pair. To do this, connect 36V and ground to the Qwiic 
+Endpoint. Also make sure that the BP jumper is cut/open. Make sure the 1 side of the PSEL jumper is open and close the 2 side of the
+PSEL jumper</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
